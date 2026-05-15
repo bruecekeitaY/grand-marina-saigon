@@ -1,0 +1,15 @@
+# robots.txt for Grand Marina Saigon
+# https://grandmarina-saigon.com/
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://grandmarina-saigon.com/sitemap.xml
+
+# Disallow common non-content paths (none for this site)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Optimize crawl
+Crawl-delay: 1

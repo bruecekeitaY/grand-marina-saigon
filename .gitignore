@@ -1,0 +1,63 @@
+# =========================================
+# Grand Marina Saigon - Git Ignore
+# =========================================
+
+# ----- OS / IDE -----
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.vscode/
+.idea/
+
+# ----- Claude Code 個人設定 -----
+.claude/
+
+# ----- Python (helper scripts) -----
+__pycache__/
+*.py[cod]
+*.pyc
+venv/
+.venv/
+
+# ----- ローカル一時ファイル -----
+*.log
+*.tmp
+image-paths.txt
+
+# ----- Google Driveから取得したオリジナル(リネーム済コピーがmaterials/直下にあるため重複) -----
+# オリジナルはローカル保存のみ、GitHubには上げない(サイズ削減)
+materials/brochure/BROCHURE/
+materials/layout/COVE/
+materials/layout/LAKE/
+materials/layout/SEA/
+materials/layout/LAGOON/
+materials/layout/PENTHOUSE/
+materials/layout/FILE CĐT/
+materials/layout/Eye View Map*.png
+materials/layout/.DS_Store
+materials/factsheet/DỊCH VỤ MARRIOTT/
+materials/factsheet/QUÀ TẶNG HỘI VIÊN CLUB MARRIOTT/
+materials/qa/Q&A/
+materials/marriott-services/
+materials/training/
+
+# ----- オリジナル画像フォルダ(リネーム済が images/ 直下にある) -----
+images/project/
+images/materials/
+images/layout/
+
+# ----- 未使用の大型PDF(サイトから参照していないもの) -----
+materials/layout-lake-en.pdf
+materials/layout-cove-en.pdf
+materials/layout-sea-jw.pdf
+materials/layout-lake-marriott-en.pdf
+materials/layout-sea-jwmarriott.pdf
+materials/layout-sea-legacy-units.pdf
+materials/layout-sea-typical.pdf
+materials/layout-lake-typical.pdf
+materials/layout-cove-typical.pdf
+materials/layout-cove-bespoke-01.pdf
+materials/layout-cove-bespoke-02.pdf
+materials/layout-cove-bespoke-03.pdf
+materials/layout-cove-bespoke-04.pdf
