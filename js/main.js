@@ -29,7 +29,7 @@ if (navToggle && navMenu) {
   img.onerror = () => { /* 画像なし: グラデーション背景のまま */ };
   // CSSと同じパスを試す
   const isEn = window.location.pathname.indexOf('/en/') !== -1;
-  img.src = (isEn ? '../images/hero.jpg' : 'images/hero.jpg');
+  img.src = (isEn ? '../images/hero.webp' : 'images/hero.webp');
 })();
 
 // フォーム送信処理
