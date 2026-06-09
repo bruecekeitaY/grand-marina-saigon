@@ -5,7 +5,7 @@
 
 ## 1. サイトの基本
 - サイト名: Grand Marina Saigon（販売代理／独立エージェントの紹介サイト）
-- ドメイン: https://grandmarina-saigon.com
+- ドメイン: https://grand-marina-saigon.com
 - 物件: Masterise Homes × Marriott / JW Marriott Branded Residences（ホーチミン1区 Ba Son）
 - 技術: 素のHTML/CSS/JS。**フレームワーク・ビルドツールは導入しない**
 - 公式注記: Masterise/Marriott 公式ではない旨をフッターに必ず明示
@@ -36,7 +36,7 @@
 - テンプレート: `docs/seo/templates/article.vi.html` / `article.en.html` を必ず使う
 
 ## 5. 公開URL・相対パス（重要）
-- URL形式: `https://grandmarina-saigon.com/news/{slug}.html`（EN: `/en/news/{slug}.html`）
+- URL形式: `https://grand-marina-saigon.com/news/{slug}.html`（EN: `/en/news/{slug}.html`）
 - **相対パスの深さに注意**（記事はサブフォルダにあるため）:
   - VI記事 `news/{slug}.html` から: CSS=`../css/style.css` / JS=`../js/main.js` / 画像=`../images/...` / 各ページ=`../about.html` 等 / EN対=`../en/news/{slug}.html`
   - EN記事 `en/news/{slug}.html` から: CSS=`../../css/style.css` / JS=`../../js/main.js` / 画像=`../../images/...` / ENページ=`../about.html` 等 / VI対=`../../news/{slug}.html`
@@ -77,5 +77,5 @@
 ## 11. 環境・運用メモ
 - プレビュー: `python -m http.server 8000` → `http://localhost:8000/news/{slug}.html`
 - デプロイ: Vercel（`/_vercel/insights/script.js` 検出）。`real-estate-lp` を反映
-- ハードコード定数: Zalo `0903475802` / URL `https://zalo.me/0903475802` / ドメイン `https://grandmarina-saigon.com`
+- ハードコード定数: Zalo `0903475802` / URL `https://zalo.me/0903475802` / ドメイン `https://grand-marina-saigon.com`
 - オーナーはコーディング初心者・日本語対応。変更点は簡潔に日本語で伝える

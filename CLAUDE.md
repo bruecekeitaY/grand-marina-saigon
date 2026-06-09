@@ -28,7 +28,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - VI: ルート直下(`/index.html`, `/about.html`, ...)
 - EN: `/en/` 配下(`/en/index.html`, `/en/about.html`, ...)
 - 各ページの `<head>` に `<link rel="alternate" hreflang="...">` を入れて Google にペア関係を伝える
-- **既知の問題**: hreflang の URL が `https://example.com/` プレースホルダーのまま。独自ドメイン取得時に全ページ一括置換が必要
+- **本番ドメイン**: hreflang/canonical は `https://grand-marina-saigon.com` を使用(Vercelで取得・接続済み 2026-06-09)。VI⇄EN をペアで指す
 
 ### リードキャプチャ: Zalo へクライアントサイドリダイレクト(`js/main.js`)
 - `#contact-form` の submit を JS で横取りし、フォーム値を Zalo メッセージに組み立てて `https://zalo.me/0903475802?text=...` を `window.open` する
@@ -78,12 +78,12 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 - 電話 / Zalo: `0903475802`
 - Zalo URL: `https://zalo.me/0903475802`
-- hreflang ベース URL: `https://example.com`(本番ドメイン取得後に置換)
+- hreflang/canonical ベース URL: `https://grand-marina-saigon.com`(取得・接続済み)
 
 ## 未対応項目(やり残し)
 
 - [ ] `images/` フォルダが空 — hero, 間取り, 施設写真, og-image(1200×630)が必要
-- [ ] hreflang URL がプレースホルダー(`example.com`)
+- [x] hreflang/canonical を本番ドメイン `grand-marina-saigon.com` に統一(2026-06-09 接続)
 - [ ] EN 版が `index` と `about` の 2 ページのみ
 - [ ] `sitemap.xml`, `robots.txt` 未作成
 - [ ] `news.html` の記事コンテンツが未投入
