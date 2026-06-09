@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<!--
+  記事テンプレート（ベトナム語） — 出力先: news/{slug}.html
+  {{...}} を埋めて使う。相対パスは news/ サブフォルダ基準（../）。EN対訳を en/news/{slug}.html に必ず作る。
+-->
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google-site-verification" content="MVaPqPHb_N-b92wkdEaawPVi5cO8cbSql8pJYVawteg">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="apple-touch-icon" href="/favicon.svg">
+<title>{{TITLE}}</title>
+<meta name="description" content="{{META_DESCRIPTION}}">
+<meta name="keywords" content="{{META_KEYWORDS}}">
+<link rel="canonical" href="https://grandmarina-saigon.com/news/{{SLUG}}.html">
+<link rel="alternate" hreflang="vi" href="https://grandmarina-saigon.com/news/{{SLUG}}.html">
+<link rel="alternate" hreflang="en" href="https://grandmarina-saigon.com/en/news/{{SLUG}}.html">
+<link rel="alternate" hreflang="x-default" href="https://grandmarina-saigon.com/news/{{SLUG}}.html">
+
+<meta property="og:title" content="{{OG_TITLE}}">
+<meta property="og:description" content="{{OG_DESCRIPTION}}">
+<meta property="og:type" content="article">
+<meta property="og:image" content="../images/{{OG_IMAGE}}">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;600;700&display=swap"></noscript>
+<link rel="stylesheet" href="../css/style.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{H1}}",
+  "description": "{{META_DESCRIPTION}}",
+  "inLanguage": "vi",
+  "datePublished": "{{DATE_PUBLISHED}}",
+  "dateModified": "{{DATE_PUBLISHED}}",
+  "image": "https://grandmarina-saigon.com/images/{{OG_IMAGE}}",
+  "author": {"@type": "Organization", "name": "Grand Marina Sales Agent", "url": "https://grandmarina-saigon.com/"},
+  "publisher": {"@type": "Organization", "name": "Grand Marina Sales Agent", "url": "https://grandmarina-saigon.com/"},
+  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://grandmarina-saigon.com/news/{{SLUG}}.html"}
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Trang chủ", "item": "https://grandmarina-saigon.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Tin tức", "item": "https://grandmarina-saigon.com/news.html"},
+    {"@type": "ListItem", "position": 3, "name": "{{BREADCRUMB_TITLE}}", "item": "https://grandmarina-saigon.com/news/{{SLUG}}.html"}
+  ]
+}
+</script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a href="../index.html" class="logo">Grand Marina <span>Saigon</span></a>
+    <button class="nav-toggle" aria-label="Menu">☰</button>
+    <nav class="nav-menu">
+      <a href="../about.html">Giới thiệu</a>
+      <a href="../location.html">Vị trí</a>
+      <a href="../residences.html">Căn hộ</a>
+      <a href="../amenities.html">Tiện ích</a>
+      <a href="../pricing.html">Giá bán</a>
+      <a href="../news.html">Tin tức</a>
+      <a href="../contact.html">Liên hệ</a>
+      <div class="lang-switch">
+        <a href="../news/{{SLUG}}.html" class="active">VI</a>
+        <a href="../en/news/{{SLUG}}.html">EN</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<section class="page-hero">
+  <h1>{{H1}}</h1>
+  <p>{{LEAD}}</p>
+</section>
+
+<nav class="breadcrumb">
+  <div class="container">
+    <ol>
+      <li><a href="../index.html">Trang chủ</a></li>
+      <li><a href="../news.html">Tin tức</a></li>
+      <li>{{BREADCRUMB_TITLE}}</li>
+    </ol>
+  </div>
+</nav>
+
+<section class="section">
+  <div class="container">
+    <article class="article">
+
+      <!-- ▼▼▼ 本文（ARTICLE_BODY）ここから ▼▼▼
+        - 各H2直後に結論1文を <p><strong>…</strong></p> で（AEO）
+        - 箇条書き <ul><li> の後は必ず解説 <p>
+        - 比較表は <table class="spec-table">、表の後に解説
+        - 画像は <img src="../images/..." alt="..." loading="lazy">（任意）
+        - CTAは下記 .cta-banner を本文中に2〜3回（直前に文脈接続文を1文・毎回違う訴求）
+        - 内部リンクは ../about.html / ../pricing.html / ../news/{other-slug}.html 等
+      -->
+
+      {{ARTICLE_BODY}}
+
+      <!-- CTAバナーの例（コピーして使う） -->
+      <div class="cta-banner">
+        <h3>{{CTA_HEADING}}</h3>
+        <p>{{CTA_TEXT}}</p>
+        <a href="https://zalo.me/0903475802" class="btn btn-zalo" target="_blank" rel="noopener">💬 Chat Zalo ngay</a>
+      </div>
+
+      <div class="info-box">
+        <h4>Ghi chú</h4>
+        <p>Thông tin về giá, diện tích và tiến độ có thể thay đổi theo công bố chính thức từ chủ đầu tư. Vui lòng liên hệ Zalo <strong>0903 475 802</strong> để nhận tài liệu và bảng giá mới nhất.</p>
+      </div>
+
+      <!-- ▲▲▲ 本文ここまで ▲▲▲ -->
+
+    </article>
+  </div>
+</section>
+
+<section class="related-pages">
+  <div class="container">
+    <div class="section-header">
+      <h2 style="font-family: var(--font-serif); font-size: 26px;">Tìm hiểu thêm</h2>
+    </div>
+    <div class="related-grid">
+      <a href="../about.html" class="related-card">
+        <h4>Giới thiệu dự án</h4>
+        <p>Tổng quan, chủ đầu tư Masterise và đối tác Marriott.</p>
+      </a>
+      <a href="../pricing.html" class="related-card">
+        <h4>Giá &amp; Thanh toán</h4>
+        <p>Bảng giá tham khảo và phương thức thanh toán.</p>
+      </a>
+      <a href="../news.html" class="related-card">
+        <h4>Tin tức &amp; tiến độ</h4>
+        <p>Cập nhật mới nhất về dự án.</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>Grand Marina Saigon</h4>
+        <p style="line-height: 1.7;">Dự án căn hộ hàng hiệu Marriott &amp; JW Marriott Branded Residences tại Ba Son, Quận 1, TP.HCM.</p>
+      </div>
+      <div>
+        <h4>Trang</h4>
+        <a href="../index.html">Trang chủ</a>
+        <a href="../about.html">Giới thiệu</a>
+        <a href="../location.html">Vị trí</a>
+        <a href="../residences.html">Căn hộ</a>
+        <a href="../amenities.html">Tiện ích</a>
+        <a href="../pricing.html">Giá bán</a>
+        <a href="../news.html">Tin tức</a>
+        <a href="../faq.html">FAQ</a>
+        <a href="../contact.html">Liên hệ</a>
+      </div>
+      <div>
+        <h4>Liên hệ</h4>
+        <a href="tel:0903475802">📞 0903 475 802</a>
+        <a href="https://zalo.me/0903475802" target="_blank" rel="noopener">💬 Zalo: 0903475802</a>
+        <a href="../en/news/{{SLUG}}.html">English version</a>
+      </div>
+    </div>
+    <p class="footer-disclaimer">
+      ※ Trang web này được vận hành bởi đại lý phân phối độc lập, KHÔNG phải trang chính thức của Masterise Homes hay Marriott International.
+      Thông tin trên trang chỉ mang tính tham khảo, vui lòng liên hệ trực tiếp để xác nhận chi tiết mới nhất.<br>
+      © 2026 Grand Marina Sales Agent. All rights reserved.
+    </p>
+  </div>
+</footer>
+
+<a href="https://zalo.me/0903475802" class="zalo-float" target="_blank" rel="noopener" aria-label="Chat Zalo">Zalo</a>
+<script src="../js/main.js"></script>
+<!-- Vercel Web Analytics -->
+<script defer src="/_vercel/insights/script.js"></script>
+</body>
+</html>
