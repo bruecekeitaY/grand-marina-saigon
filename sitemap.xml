@@ -2,137 +2,156 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
-  <!-- Vietnamese pages -->
+  <!-- Core pages -->
   <url>
     <loc>https://grand-marina-saigon.com/</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2026-06-09</lastmod>
+    <priority>1</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/"/>
+  </url>
+  <url>
+    <loc>https://grand-marina-saigon.com/en/</loc>
+    <lastmod>2026-06-09</lastmod>
+    <priority>0.95</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/about.html</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-06-01</lastmod>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/about.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/about.html"/>
-  </url>
-  <url>
-    <loc>https://grand-marina-saigon.com/location.html</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/location.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/location.html"/>
-  </url>
-  <url>
-    <loc>https://grand-marina-saigon.com/residences.html</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/residences.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/residences.html"/>
-  </url>
-  <url>
-    <loc>https://grand-marina-saigon.com/amenities.html</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/amenities.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/amenities.html"/>
-  </url>
-  <url>
-    <loc>https://grand-marina-saigon.com/pricing.html</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/pricing.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/pricing.html"/>
-  </url>
-  <url>
-    <loc>https://grand-marina-saigon.com/news.html</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news.html"/>
-  </url>
-  <url>
-    <loc>https://grand-marina-saigon.com/faq.html</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/faq.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/faq.html"/>
-  </url>
-  <url>
-    <loc>https://grand-marina-saigon.com/contact.html</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/contact.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/contact.html"/>
-  </url>
-
-  <!-- English pages -->
-  <url>
-    <loc>https://grand-marina-saigon.com/en/</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/about.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/en/about.html</loc>
-    <lastmod>2026-05-15</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/about.html"/>
+  </url>
+  <url>
+    <loc>https://grand-marina-saigon.com/location.html</loc>
+    <lastmod>2026-06-01</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/location.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/location.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/location.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/en/location.html</loc>
-    <lastmod>2026-05-15</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/location.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/location.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/location.html"/>
+  </url>
+  <url>
+    <loc>https://grand-marina-saigon.com/residences.html</loc>
+    <lastmod>2026-06-01</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/residences.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/residences.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/residences.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/en/residences.html</loc>
-    <lastmod>2026-05-15</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/residences.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/residences.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/residences.html"/>
+  </url>
+  <url>
+    <loc>https://grand-marina-saigon.com/amenities.html</loc>
+    <lastmod>2026-06-01</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/amenities.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/amenities.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/amenities.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/en/amenities.html</loc>
-    <lastmod>2026-05-15</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <priority>0.75</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/amenities.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/amenities.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/amenities.html"/>
+  </url>
+  <url>
+    <loc>https://grand-marina-saigon.com/pricing.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <priority>0.95</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/pricing.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/pricing.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/pricing.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/en/pricing.html</loc>
-    <lastmod>2026-05-15</lastmod>
-    <priority>0.9</priority>
+    <lastmod>2026-06-09</lastmod>
+    <priority>0.90</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/pricing.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/pricing.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/pricing.html"/>
+  </url>
+  <url>
+    <loc>https://grand-marina-saigon.com/news.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/en/news.html</loc>
-    <lastmod>2026-05-15</lastmod>
+    <lastmod>2026-06-09</lastmod>
     <priority>0.65</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news.html"/>
+  </url>
+  <url>
+    <loc>https://grand-marina-saigon.com/faq.html</loc>
+    <lastmod>2026-06-01</lastmod>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/faq.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/en/faq.html</loc>
-    <lastmod>2026-05-15</lastmod>
-    <priority>0.8</priority>
+    <lastmod>2026-06-01</lastmod>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/faq.html"/>
+  </url>
+  <url>
+    <loc>https://grand-marina-saigon.com/contact.html</loc>
+    <lastmod>2026-06-01</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/contact.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/en/contact.html</loc>
-    <lastmod>2026-05-15</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/contact.html"/>
   </url>
-
 
   <!-- News articles (VI + EN) -->
   <url>
     <loc>https://grand-marina-saigon.com/news/buying-procedure-step-by-step.html</loc>
     <lastmod>2026-06-08</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/buying-procedure-step-by-step.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/buying-procedure-step-by-step.html"/>
@@ -142,11 +161,13 @@
     <loc>https://grand-marina-saigon.com/en/news/buying-procedure-step-by-step.html</loc>
     <lastmod>2026-06-08</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/buying-procedure-step-by-step.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/buying-procedure-step-by-step.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/buying-procedure-step-by-step.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/financing-loans-for-foreigners.html</loc>
     <lastmod>2026-06-07</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/financing-loans-for-foreigners.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/financing-loans-for-foreigners.html"/>
@@ -156,11 +177,13 @@
     <loc>https://grand-marina-saigon.com/en/news/financing-loans-for-foreigners.html</loc>
     <lastmod>2026-06-07</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/financing-loans-for-foreigners.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/financing-loans-for-foreigners.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/financing-loans-for-foreigners.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/foreigner-buy-guide.html</loc>
     <lastmod>2026-06-06</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/foreigner-buy-guide.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/foreigner-buy-guide.html"/>
@@ -170,11 +193,13 @@
     <loc>https://grand-marina-saigon.com/en/news/foreigner-buy-guide.html</loc>
     <lastmod>2026-06-06</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/foreigner-buy-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/foreigner-buy-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/foreigner-buy-guide.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/foreigner-eligibility-conditions.html</loc>
     <lastmod>2026-06-05</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/foreigner-eligibility-conditions.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/foreigner-eligibility-conditions.html"/>
@@ -184,11 +209,13 @@
     <loc>https://grand-marina-saigon.com/en/news/foreigner-eligibility-conditions.html</loc>
     <lastmod>2026-06-05</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/foreigner-eligibility-conditions.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/foreigner-eligibility-conditions.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/foreigner-eligibility-conditions.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/documents-checklist-foreigner.html</loc>
     <lastmod>2026-06-04</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/documents-checklist-foreigner.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/documents-checklist-foreigner.html"/>
@@ -198,11 +225,13 @@
     <loc>https://grand-marina-saigon.com/en/news/documents-checklist-foreigner.html</loc>
     <lastmod>2026-06-04</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/documents-checklist-foreigner.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/documents-checklist-foreigner.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/documents-checklist-foreigner.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/repatriation-of-funds.html</loc>
     <lastmod>2026-06-03</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/repatriation-of-funds.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/repatriation-of-funds.html"/>
@@ -212,11 +241,13 @@
     <loc>https://grand-marina-saigon.com/en/news/repatriation-of-funds.html</loc>
     <lastmod>2026-06-03</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/repatriation-of-funds.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/repatriation-of-funds.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/repatriation-of-funds.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/common-pitfalls-foreign-buyers.html</loc>
     <lastmod>2026-06-02</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/common-pitfalls-foreign-buyers.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/common-pitfalls-foreign-buyers.html"/>
@@ -226,11 +257,13 @@
     <loc>https://grand-marina-saigon.com/en/news/common-pitfalls-foreign-buyers.html</loc>
     <lastmod>2026-06-02</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/common-pitfalls-foreign-buyers.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/common-pitfalls-foreign-buyers.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/common-pitfalls-foreign-buyers.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/inheritance-gifting-rules.html</loc>
     <lastmod>2026-06-01</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/inheritance-gifting-rules.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/inheritance-gifting-rules.html"/>
@@ -240,11 +273,13 @@
     <loc>https://grand-marina-saigon.com/en/news/inheritance-gifting-rules.html</loc>
     <lastmod>2026-06-01</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/inheritance-gifting-rules.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/inheritance-gifting-rules.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/inheritance-gifting-rules.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/officetel-vs-apartment-foreigner.html</loc>
     <lastmod>2026-05-31</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/officetel-vs-apartment-foreigner.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/officetel-vs-apartment-foreigner.html"/>
@@ -254,11 +289,13 @@
     <loc>https://grand-marina-saigon.com/en/news/officetel-vs-apartment-foreigner.html</loc>
     <lastmod>2026-05-31</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/officetel-vs-apartment-foreigner.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/officetel-vs-apartment-foreigner.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/officetel-vs-apartment-foreigner.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/foreign-investor-guide.html</loc>
     <lastmod>2026-05-30</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/foreign-investor-guide.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/foreign-investor-guide.html"/>
@@ -268,11 +305,13 @@
     <loc>https://grand-marina-saigon.com/en/news/foreign-investor-guide.html</loc>
     <lastmod>2026-05-30</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/foreign-investor-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/foreign-investor-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/foreign-investor-guide.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/rental-yield-analysis.html</loc>
     <lastmod>2026-05-29</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/rental-yield-analysis.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/rental-yield-analysis.html"/>
@@ -282,11 +321,13 @@
     <loc>https://grand-marina-saigon.com/en/news/rental-yield-analysis.html</loc>
     <lastmod>2026-05-29</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/rental-yield-analysis.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/rental-yield-analysis.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/rental-yield-analysis.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/dual-key-investment-strategy.html</loc>
     <lastmod>2026-05-28</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/dual-key-investment-strategy.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/dual-key-investment-strategy.html"/>
@@ -296,11 +337,13 @@
     <loc>https://grand-marina-saigon.com/en/news/dual-key-investment-strategy.html</loc>
     <lastmod>2026-05-28</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/dual-key-investment-strategy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/dual-key-investment-strategy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/dual-key-investment-strategy.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/officetel-investment-roi.html</loc>
     <lastmod>2026-05-27</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/officetel-investment-roi.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/officetel-investment-roi.html"/>
@@ -310,11 +353,13 @@
     <loc>https://grand-marina-saigon.com/en/news/officetel-investment-roi.html</loc>
     <lastmod>2026-05-27</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/officetel-investment-roi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/officetel-investment-roi.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/officetel-investment-roi.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/leverage-loan-roi-impact.html</loc>
     <lastmod>2026-05-26</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/leverage-loan-roi-impact.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/leverage-loan-roi-impact.html"/>
@@ -324,11 +369,13 @@
     <loc>https://grand-marina-saigon.com/en/news/leverage-loan-roi-impact.html</loc>
     <lastmod>2026-05-26</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/leverage-loan-roi-impact.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/leverage-loan-roi-impact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/leverage-loan-roi-impact.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/short-let-vs-long-let.html</loc>
     <lastmod>2026-05-25</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/short-let-vs-long-let.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/short-let-vs-long-let.html"/>
@@ -338,11 +385,13 @@
     <loc>https://grand-marina-saigon.com/en/news/short-let-vs-long-let.html</loc>
     <lastmod>2026-05-25</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/short-let-vs-long-let.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/short-let-vs-long-let.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/short-let-vs-long-let.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/vs-thu-thiem-investment.html</loc>
     <lastmod>2026-05-24</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/vs-thu-thiem-investment.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/vs-thu-thiem-investment.html"/>
@@ -352,11 +401,13 @@
     <loc>https://grand-marina-saigon.com/en/news/vs-thu-thiem-investment.html</loc>
     <lastmod>2026-05-24</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/vs-thu-thiem-investment.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/vs-thu-thiem-investment.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/vs-thu-thiem-investment.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/exit-resale-secondary-market.html</loc>
     <lastmod>2026-05-23</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/exit-resale-secondary-market.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/exit-resale-secondary-market.html"/>
@@ -366,11 +417,13 @@
     <loc>https://grand-marina-saigon.com/en/news/exit-resale-secondary-market.html</loc>
     <lastmod>2026-05-23</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/exit-resale-secondary-market.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/exit-resale-secondary-market.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/exit-resale-secondary-market.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/total-cost-of-ownership.html</loc>
     <lastmod>2026-05-22</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/total-cost-of-ownership.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/total-cost-of-ownership.html"/>
@@ -380,11 +433,13 @@
     <loc>https://grand-marina-saigon.com/en/news/total-cost-of-ownership.html</loc>
     <lastmod>2026-05-22</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/total-cost-of-ownership.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/total-cost-of-ownership.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/total-cost-of-ownership.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/branded-residence-price-premium.html</loc>
     <lastmod>2026-05-21</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/branded-residence-price-premium.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/branded-residence-price-premium.html"/>
@@ -394,11 +449,13 @@
     <loc>https://grand-marina-saigon.com/en/news/branded-residence-price-premium.html</loc>
     <lastmod>2026-05-21</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/branded-residence-price-premium.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/branded-residence-price-premium.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/branded-residence-price-premium.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/total-budget-by-budget-band.html</loc>
     <lastmod>2026-05-20</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/total-budget-by-budget-band.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/total-budget-by-budget-band.html"/>
@@ -408,11 +465,13 @@
     <loc>https://grand-marina-saigon.com/en/news/total-budget-by-budget-band.html</loc>
     <lastmod>2026-05-20</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/total-budget-by-budget-band.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/total-budget-by-budget-band.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/total-budget-by-budget-band.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/bank-loan-0-percent-grace.html</loc>
     <lastmod>2026-05-19</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/bank-loan-0-percent-grace.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/bank-loan-0-percent-grace.html"/>
@@ -422,11 +481,13 @@
     <loc>https://grand-marina-saigon.com/en/news/bank-loan-0-percent-grace.html</loc>
     <lastmod>2026-05-19</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/bank-loan-0-percent-grace.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/bank-loan-0-percent-grace.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/bank-loan-0-percent-grace.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/foreigner-cost-and-payment.html</loc>
     <lastmod>2026-05-18</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/foreigner-cost-and-payment.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/foreigner-cost-and-payment.html"/>
@@ -436,11 +497,13 @@
     <loc>https://grand-marina-saigon.com/en/news/foreigner-cost-and-payment.html</loc>
     <lastmod>2026-05-18</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/foreigner-cost-and-payment.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/foreigner-cost-and-payment.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/foreigner-cost-and-payment.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/price-per-m2-by-unit-type.html</loc>
     <lastmod>2026-05-17</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/price-per-m2-by-unit-type.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/price-per-m2-by-unit-type.html"/>
@@ -450,11 +513,13 @@
     <loc>https://grand-marina-saigon.com/en/news/price-per-m2-by-unit-type.html</loc>
     <lastmod>2026-05-17</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/price-per-m2-by-unit-type.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/price-per-m2-by-unit-type.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/price-per-m2-by-unit-type.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/payment-schedule-explained.html</loc>
     <lastmod>2026-05-16</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/payment-schedule-explained.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/payment-schedule-explained.html"/>
@@ -464,11 +529,13 @@
     <loc>https://grand-marina-saigon.com/en/news/payment-schedule-explained.html</loc>
     <lastmod>2026-05-16</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/payment-schedule-explained.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/payment-schedule-explained.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/payment-schedule-explained.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/fast-payment-discount.html</loc>
     <lastmod>2026-05-15</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/fast-payment-discount.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/fast-payment-discount.html"/>
@@ -478,11 +545,13 @@
     <loc>https://grand-marina-saigon.com/en/news/fast-payment-discount.html</loc>
     <lastmod>2026-05-15</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/fast-payment-discount.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/fast-payment-discount.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/fast-payment-discount.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/deposit-reservation-process.html</loc>
     <lastmod>2026-05-14</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/deposit-reservation-process.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/deposit-reservation-process.html"/>
@@ -492,11 +561,13 @@
     <loc>https://grand-marina-saigon.com/en/news/deposit-reservation-process.html</loc>
     <lastmod>2026-05-14</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/deposit-reservation-process.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/deposit-reservation-process.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/deposit-reservation-process.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/primary-vs-resale-cost.html</loc>
     <lastmod>2026-05-13</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/primary-vs-resale-cost.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/primary-vs-resale-cost.html"/>
@@ -506,11 +577,13 @@
     <loc>https://grand-marina-saigon.com/en/news/primary-vs-resale-cost.html</loc>
     <lastmod>2026-05-13</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/primary-vs-resale-cost.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/primary-vs-resale-cost.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/primary-vs-resale-cost.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/taxes-and-fees-at-purchase.html</loc>
     <lastmod>2026-05-12</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/taxes-and-fees-at-purchase.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/taxes-and-fees-at-purchase.html"/>
@@ -520,11 +593,13 @@
     <loc>https://grand-marina-saigon.com/en/news/taxes-and-fees-at-purchase.html</loc>
     <lastmod>2026-05-12</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/taxes-and-fees-at-purchase.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/taxes-and-fees-at-purchase.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/taxes-and-fees-at-purchase.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/phap-ly-tien-do-ban-giao.html</loc>
     <lastmod>2026-05-11</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/phap-ly-tien-do-ban-giao.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/phap-ly-tien-do-ban-giao.html"/>
@@ -534,11 +609,13 @@
     <loc>https://grand-marina-saigon.com/en/news/phap-ly-tien-do-ban-giao.html</loc>
     <lastmod>2026-05-11</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/phap-ly-tien-do-ban-giao.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/phap-ly-tien-do-ban-giao.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/phap-ly-tien-do-ban-giao.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/hop-dong-van-hanh-marriott-20-nam.html</loc>
     <lastmod>2026-05-10</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/hop-dong-van-hanh-marriott-20-nam.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/hop-dong-van-hanh-marriott-20-nam.html"/>
@@ -548,11 +625,13 @@
     <loc>https://grand-marina-saigon.com/en/news/hop-dong-van-hanh-marriott-20-nam.html</loc>
     <lastmod>2026-05-10</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/hop-dong-van-hanh-marriott-20-nam.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/hop-dong-van-hanh-marriott-20-nam.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/hop-dong-van-hanh-marriott-20-nam.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/thap-lake-marriott.html</loc>
     <lastmod>2026-05-09</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/thap-lake-marriott.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/thap-lake-marriott.html"/>
@@ -562,11 +641,13 @@
     <loc>https://grand-marina-saigon.com/en/news/thap-lake-marriott.html</loc>
     <lastmod>2026-05-09</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/thap-lake-marriott.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/thap-lake-marriott.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/thap-lake-marriott.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/thap-cove-jw-marriott.html</loc>
     <lastmod>2026-05-08</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/thap-cove-jw-marriott.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/thap-cove-jw-marriott.html"/>
@@ -576,11 +657,13 @@
     <loc>https://grand-marina-saigon.com/en/news/thap-cove-jw-marriott.html</loc>
     <lastmod>2026-05-08</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/thap-cove-jw-marriott.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/thap-cove-jw-marriott.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/thap-cove-jw-marriott.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/thap-lagoon-sea-officetel.html</loc>
     <lastmod>2026-05-07</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/thap-lagoon-sea-officetel.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/thap-lagoon-sea-officetel.html"/>
@@ -590,11 +673,13 @@
     <loc>https://grand-marina-saigon.com/en/news/thap-lagoon-sea-officetel.html</loc>
     <lastmod>2026-05-07</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/thap-lagoon-sea-officetel.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/thap-lagoon-sea-officetel.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/thap-lagoon-sea-officetel.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/masterise-homes-chu-dau-tu.html</loc>
     <lastmod>2026-05-06</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/masterise-homes-chu-dau-tu.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/masterise-homes-chu-dau-tu.html"/>
@@ -604,11 +689,13 @@
     <loc>https://grand-marina-saigon.com/en/news/masterise-homes-chu-dau-tu.html</loc>
     <lastmod>2026-05-06</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/masterise-homes-chu-dau-tu.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/masterise-homes-chu-dau-tu.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/masterise-homes-chu-dau-tu.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/marriott-jw-marriott-khac-nhau.html</loc>
     <lastmod>2026-05-05</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/marriott-jw-marriott-khac-nhau.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/marriott-jw-marriott-khac-nhau.html"/>
@@ -618,11 +705,13 @@
     <loc>https://grand-marina-saigon.com/en/news/marriott-jw-marriott-khac-nhau.html</loc>
     <lastmod>2026-05-05</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/marriott-jw-marriott-khac-nhau.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/marriott-jw-marriott-khac-nhau.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/marriott-jw-marriott-khac-nhau.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/thi-cong-newtecons-hba-atkins.html</loc>
     <lastmod>2026-05-04</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/thi-cong-newtecons-hba-atkins.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/thi-cong-newtecons-hba-atkins.html"/>
@@ -632,11 +721,13 @@
     <loc>https://grand-marina-saigon.com/en/news/thi-cong-newtecons-hba-atkins.html</loc>
     <lastmod>2026-05-04</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/thi-cong-newtecons-hba-atkins.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/thi-cong-newtecons-hba-atkins.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/thi-cong-newtecons-hba-atkins.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/best-unit-for-rental-investment.html</loc>
     <lastmod>2026-05-03</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/best-unit-for-rental-investment.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/best-unit-for-rental-investment.html"/>
@@ -646,11 +737,13 @@
     <loc>https://grand-marina-saigon.com/en/news/best-unit-for-rental-investment.html</loc>
     <lastmod>2026-05-03</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/best-unit-for-rental-investment.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/best-unit-for-rental-investment.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/best-unit-for-rental-investment.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/1br-vs-2br-which-to-buy.html</loc>
     <lastmod>2026-05-02</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/1br-vs-2br-which-to-buy.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/1br-vs-2br-which-to-buy.html"/>
@@ -660,11 +753,13 @@
     <loc>https://grand-marina-saigon.com/en/news/1br-vs-2br-which-to-buy.html</loc>
     <lastmod>2026-05-02</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/1br-vs-2br-which-to-buy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/1br-vs-2br-which-to-buy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/1br-vs-2br-which-to-buy.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/dual-key-units-explained.html</loc>
     <lastmod>2026-05-01</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/dual-key-units-explained.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/dual-key-units-explained.html"/>
@@ -674,11 +769,13 @@
     <loc>https://grand-marina-saigon.com/en/news/dual-key-units-explained.html</loc>
     <lastmod>2026-05-01</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/dual-key-units-explained.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/dual-key-units-explained.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/dual-key-units-explained.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/choosing-floor-orientation.html</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/choosing-floor-orientation.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/choosing-floor-orientation.html"/>
@@ -688,11 +785,13 @@
     <loc>https://grand-marina-saigon.com/en/news/choosing-floor-orientation.html</loc>
     <lastmod>2026-04-30</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/choosing-floor-orientation.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/choosing-floor-orientation.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/choosing-floor-orientation.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/penthouse-sky-villa-guide.html</loc>
     <lastmod>2026-04-29</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/penthouse-sky-villa-guide.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/penthouse-sky-villa-guide.html"/>
@@ -702,11 +801,13 @@
     <loc>https://grand-marina-saigon.com/en/news/penthouse-sky-villa-guide.html</loc>
     <lastmod>2026-04-29</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/penthouse-sky-villa-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/penthouse-sky-villa-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/penthouse-sky-villa-guide.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/river-view-vs-city-view.html</loc>
     <lastmod>2026-04-28</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/river-view-vs-city-view.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/river-view-vs-city-view.html"/>
@@ -716,11 +817,13 @@
     <loc>https://grand-marina-saigon.com/en/news/river-view-vs-city-view.html</loc>
     <lastmod>2026-04-28</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/river-view-vs-city-view.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/river-view-vs-city-view.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/river-view-vs-city-view.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/tower-collections-comparison.html</loc>
     <lastmod>2026-04-27</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/tower-collections-comparison.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/tower-collections-comparison.html"/>
@@ -730,11 +833,13 @@
     <loc>https://grand-marina-saigon.com/en/news/tower-collections-comparison.html</loc>
     <lastmod>2026-04-27</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/tower-collections-comparison.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/tower-collections-comparison.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/tower-collections-comparison.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/marriott-handover-finishes.html</loc>
     <lastmod>2026-04-26</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/marriott-handover-finishes.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/marriott-handover-finishes.html"/>
@@ -744,11 +849,13 @@
     <loc>https://grand-marina-saigon.com/en/news/marriott-handover-finishes.html</loc>
     <lastmod>2026-04-26</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/marriott-handover-finishes.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/marriott-handover-finishes.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/marriott-handover-finishes.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/management-fee-what-included.html</loc>
     <lastmod>2026-04-25</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/management-fee-what-included.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/management-fee-what-included.html"/>
@@ -758,11 +865,13 @@
     <loc>https://grand-marina-saigon.com/en/news/management-fee-what-included.html</loc>
     <lastmod>2026-04-25</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/management-fee-what-included.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/management-fee-what-included.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/management-fee-what-included.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/marriott-bonvoy-resident-benefits.html</loc>
     <lastmod>2026-04-24</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/marriott-bonvoy-resident-benefits.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/marriott-bonvoy-resident-benefits.html"/>
@@ -772,11 +881,13 @@
     <loc>https://grand-marina-saigon.com/en/news/marriott-bonvoy-resident-benefits.html</loc>
     <lastmod>2026-04-24</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/marriott-bonvoy-resident-benefits.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/marriott-bonvoy-resident-benefits.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/marriott-bonvoy-resident-benefits.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/security-privacy-residents.html</loc>
     <lastmod>2026-04-23</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/security-privacy-residents.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/security-privacy-residents.html"/>
@@ -786,11 +897,13 @@
     <loc>https://grand-marina-saigon.com/en/news/security-privacy-residents.html</loc>
     <lastmod>2026-04-23</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/security-privacy-residents.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/security-privacy-residents.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/security-privacy-residents.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/infinity-pool-river-view.html</loc>
     <lastmod>2026-04-22</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/infinity-pool-river-view.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/infinity-pool-river-view.html"/>
@@ -800,11 +913,13 @@
     <loc>https://grand-marina-saigon.com/en/news/infinity-pool-river-view.html</loc>
     <lastmod>2026-04-22</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/infinity-pool-river-view.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/infinity-pool-river-view.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/infinity-pool-river-view.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/concierge-services-explained.html</loc>
     <lastmod>2026-04-21</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/concierge-services-explained.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/concierge-services-explained.html"/>
@@ -814,11 +929,13 @@
     <loc>https://grand-marina-saigon.com/en/news/concierge-services-explained.html</loc>
     <lastmod>2026-04-21</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/concierge-services-explained.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/concierge-services-explained.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/concierge-services-explained.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/in-residence-dining-room-service.html</loc>
     <lastmod>2026-04-20</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/in-residence-dining-room-service.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/in-residence-dining-room-service.html"/>
@@ -828,11 +945,13 @@
     <loc>https://grand-marina-saigon.com/en/news/in-residence-dining-room-service.html</loc>
     <lastmod>2026-04-20</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/in-residence-dining-room-service.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/in-residence-dining-room-service.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/in-residence-dining-room-service.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/spa-wellness-fitness-facilities.html</loc>
     <lastmod>2026-04-19</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/spa-wellness-fitness-facilities.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/spa-wellness-fitness-facilities.html"/>
@@ -842,11 +961,13 @@
     <loc>https://grand-marina-saigon.com/en/news/spa-wellness-fitness-facilities.html</loc>
     <lastmod>2026-04-19</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/spa-wellness-fitness-facilities.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/spa-wellness-fitness-facilities.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/spa-wellness-fitness-facilities.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/kids-family-facilities.html</loc>
     <lastmod>2026-04-18</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/kids-family-facilities.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/kids-family-facilities.html"/>
@@ -856,11 +977,13 @@
     <loc>https://grand-marina-saigon.com/en/news/kids-family-facilities.html</loc>
     <lastmod>2026-04-18</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/kids-family-facilities.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/kids-family-facilities.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/kids-family-facilities.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/ba-son-rental-tenant-demand.html</loc>
     <lastmod>2026-04-17</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/ba-son-rental-tenant-demand.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/ba-son-rental-tenant-demand.html"/>
@@ -870,11 +993,13 @@
     <loc>https://grand-marina-saigon.com/en/news/ba-son-rental-tenant-demand.html</loc>
     <lastmod>2026-04-17</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/ba-son-rental-tenant-demand.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/ba-son-rental-tenant-demand.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/ba-son-rental-tenant-demand.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/ba-son-vs-thao-dien-thu-thiem.html</loc>
     <lastmod>2026-04-16</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/ba-son-vs-thao-dien-thu-thiem.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/ba-son-vs-thao-dien-thu-thiem.html"/>
@@ -884,11 +1009,13 @@
     <loc>https://grand-marina-saigon.com/en/news/ba-son-vs-thao-dien-thu-thiem.html</loc>
     <lastmod>2026-04-16</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/ba-son-vs-thao-dien-thu-thiem.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/ba-son-vs-thao-dien-thu-thiem.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/ba-son-vs-thao-dien-thu-thiem.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/international-schools-near-grand-marina.html</loc>
     <lastmod>2026-04-15</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/international-schools-near-grand-marina.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/international-schools-near-grand-marina.html"/>
@@ -898,11 +1025,13 @@
     <loc>https://grand-marina-saigon.com/en/news/international-schools-near-grand-marina.html</loc>
     <lastmod>2026-04-15</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/international-schools-near-grand-marina.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/international-schools-near-grand-marina.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/international-schools-near-grand-marina.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/metro-line-1-ba-son-station.html</loc>
     <lastmod>2026-04-14</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/metro-line-1-ba-son-station.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/metro-line-1-ba-son-station.html"/>
@@ -912,11 +1041,13 @@
     <loc>https://grand-marina-saigon.com/en/news/metro-line-1-ba-son-station.html</loc>
     <lastmod>2026-04-14</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/metro-line-1-ba-son-station.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/metro-line-1-ba-son-station.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/metro-line-1-ba-son-station.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/international-hospitals-near-grand-marina.html</loc>
     <lastmod>2026-04-13</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/international-hospitals-near-grand-marina.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/international-hospitals-near-grand-marina.html"/>
@@ -926,11 +1057,13 @@
     <loc>https://grand-marina-saigon.com/en/news/international-hospitals-near-grand-marina.html</loc>
     <lastmod>2026-04-13</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/international-hospitals-near-grand-marina.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/international-hospitals-near-grand-marina.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/international-hospitals-near-grand-marina.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/thu-thiem-new-urban-area-impact.html</loc>
     <lastmod>2026-04-12</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/thu-thiem-new-urban-area-impact.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/thu-thiem-new-urban-area-impact.html"/>
@@ -940,11 +1073,13 @@
     <loc>https://grand-marina-saigon.com/en/news/thu-thiem-new-urban-area-impact.html</loc>
     <lastmod>2026-04-12</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/thu-thiem-new-urban-area-impact.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/thu-thiem-new-urban-area-impact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/thu-thiem-new-urban-area-impact.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/walk-to-nguyen-hue-bitexco-ben-thanh.html</loc>
     <lastmod>2026-04-11</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/walk-to-nguyen-hue-bitexco-ben-thanh.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/walk-to-nguyen-hue-bitexco-ben-thanh.html"/>
@@ -954,11 +1089,13 @@
     <loc>https://grand-marina-saigon.com/en/news/walk-to-nguyen-hue-bitexco-ben-thanh.html</loc>
     <lastmod>2026-04-11</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/walk-to-nguyen-hue-bitexco-ben-thanh.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/walk-to-nguyen-hue-bitexco-ben-thanh.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/walk-to-nguyen-hue-bitexco-ben-thanh.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/airport-thu-thiem-tunnel-connectivity.html</loc>
     <lastmod>2026-04-10</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/airport-thu-thiem-tunnel-connectivity.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/airport-thu-thiem-tunnel-connectivity.html"/>
@@ -968,11 +1105,13 @@
     <loc>https://grand-marina-saigon.com/en/news/airport-thu-thiem-tunnel-connectivity.html</loc>
     <lastmod>2026-04-10</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/airport-thu-thiem-tunnel-connectivity.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/airport-thu-thiem-tunnel-connectivity.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/airport-thu-thiem-tunnel-connectivity.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/ba-son-shipyard-history.html</loc>
     <lastmod>2026-04-09</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/ba-son-shipyard-history.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/ba-son-shipyard-history.html"/>
@@ -982,11 +1121,13 @@
     <loc>https://grand-marina-saigon.com/en/news/ba-son-shipyard-history.html</loc>
     <lastmod>2026-04-09</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/ba-son-shipyard-history.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/ba-son-shipyard-history.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/ba-son-shipyard-history.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/renting-out-your-unit.html</loc>
     <lastmod>2026-04-08</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/renting-out-your-unit.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/renting-out-your-unit.html"/>
@@ -996,11 +1137,13 @@
     <loc>https://grand-marina-saigon.com/en/news/renting-out-your-unit.html</loc>
     <lastmod>2026-04-08</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/renting-out-your-unit.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/renting-out-your-unit.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/renting-out-your-unit.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/foreign-owner-leasing-rights.html</loc>
     <lastmod>2026-04-07</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/foreign-owner-leasing-rights.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/foreign-owner-leasing-rights.html"/>
@@ -1010,11 +1153,13 @@
     <loc>https://grand-marina-saigon.com/en/news/foreign-owner-leasing-rights.html</loc>
     <lastmod>2026-04-07</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/foreign-owner-leasing-rights.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/foreign-owner-leasing-rights.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/foreign-owner-leasing-rights.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/tenant-profiles-who-rents.html</loc>
     <lastmod>2026-04-06</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/tenant-profiles-who-rents.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/tenant-profiles-who-rents.html"/>
@@ -1024,11 +1169,13 @@
     <loc>https://grand-marina-saigon.com/en/news/tenant-profiles-who-rents.html</loc>
     <lastmod>2026-04-06</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/tenant-profiles-who-rents.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/tenant-profiles-who-rents.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/tenant-profiles-who-rents.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/marriott-property-management.html</loc>
     <lastmod>2026-04-05</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/marriott-property-management.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/marriott-property-management.html"/>
@@ -1038,11 +1185,13 @@
     <loc>https://grand-marina-saigon.com/en/news/marriott-property-management.html</loc>
     <lastmod>2026-04-05</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/marriott-property-management.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/marriott-property-management.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/marriott-property-management.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/furnishing-for-rent.html</loc>
     <lastmod>2026-04-04</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/furnishing-for-rent.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/furnishing-for-rent.html"/>
@@ -1052,11 +1201,13 @@
     <loc>https://grand-marina-saigon.com/en/news/furnishing-for-rent.html</loc>
     <lastmod>2026-04-04</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/furnishing-for-rent.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/furnishing-for-rent.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/furnishing-for-rent.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/retirement-second-home.html</loc>
     <lastmod>2026-04-03</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/retirement-second-home.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/retirement-second-home.html"/>
@@ -1066,11 +1217,13 @@
     <loc>https://grand-marina-saigon.com/en/news/retirement-second-home.html</loc>
     <lastmod>2026-04-03</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/retirement-second-home.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/retirement-second-home.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/retirement-second-home.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/branded-lifestyle-community.html</loc>
     <lastmod>2026-04-02</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/branded-lifestyle-community.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/branded-lifestyle-community.html"/>
@@ -1080,11 +1233,13 @@
     <loc>https://grand-marina-saigon.com/en/news/branded-lifestyle-community.html</loc>
     <lastmod>2026-04-02</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/branded-lifestyle-community.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/branded-lifestyle-community.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/branded-lifestyle-community.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/branded-vs-non-branded-investment.html</loc>
     <lastmod>2026-04-01</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/branded-vs-non-branded-investment.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/branded-vs-non-branded-investment.html"/>
@@ -1094,11 +1249,13 @@
     <loc>https://grand-marina-saigon.com/en/news/branded-vs-non-branded-investment.html</loc>
     <lastmod>2026-04-01</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/branded-vs-non-branded-investment.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/branded-vs-non-branded-investment.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/branded-vs-non-branded-investment.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/vs-the-marq-district-1.html</loc>
     <lastmod>2026-03-31</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/vs-the-marq-district-1.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/vs-the-marq-district-1.html"/>
@@ -1108,11 +1265,13 @@
     <loc>https://grand-marina-saigon.com/en/news/vs-the-marq-district-1.html</loc>
     <lastmod>2026-03-31</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/vs-the-marq-district-1.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/vs-the-marq-district-1.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/vs-the-marq-district-1.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/vs-empire-city-thu-thiem.html</loc>
     <lastmod>2026-03-30</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/vs-empire-city-thu-thiem.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/vs-empire-city-thu-thiem.html"/>
@@ -1122,11 +1281,13 @@
     <loc>https://grand-marina-saigon.com/en/news/vs-empire-city-thu-thiem.html</loc>
     <lastmod>2026-03-30</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/vs-empire-city-thu-thiem.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/vs-empire-city-thu-thiem.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/vs-empire-city-thu-thiem.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/vs-the-metropole-thu-thiem.html</loc>
     <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/vs-the-metropole-thu-thiem.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/vs-the-metropole-thu-thiem.html"/>
@@ -1136,11 +1297,13 @@
     <loc>https://grand-marina-saigon.com/en/news/vs-the-metropole-thu-thiem.html</loc>
     <lastmod>2026-03-29</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/vs-the-metropole-thu-thiem.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/vs-the-metropole-thu-thiem.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/vs-the-metropole-thu-thiem.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/vs-bangkok-branded-residences.html</loc>
     <lastmod>2026-03-28</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/vs-bangkok-branded-residences.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/vs-bangkok-branded-residences.html"/>
@@ -1150,11 +1313,13 @@
     <loc>https://grand-marina-saigon.com/en/news/vs-bangkok-branded-residences.html</loc>
     <lastmod>2026-03-28</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/vs-bangkok-branded-residences.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/vs-bangkok-branded-residences.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/vs-bangkok-branded-residences.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/vs-the-river-thu-thiem.html</loc>
     <lastmod>2026-03-27</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/vs-the-river-thu-thiem.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/vs-the-river-thu-thiem.html"/>
@@ -1164,11 +1329,13 @@
     <loc>https://grand-marina-saigon.com/en/news/vs-the-river-thu-thiem.html</loc>
     <lastmod>2026-03-27</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/vs-the-river-thu-thiem.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/vs-the-river-thu-thiem.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/vs-the-river-thu-thiem.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/vs-lancaster-legacy.html</loc>
     <lastmod>2026-03-26</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/vs-lancaster-legacy.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/vs-lancaster-legacy.html"/>
@@ -1178,11 +1345,13 @@
     <loc>https://grand-marina-saigon.com/en/news/vs-lancaster-legacy.html</loc>
     <lastmod>2026-03-26</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/vs-lancaster-legacy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/vs-lancaster-legacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/vs-lancaster-legacy.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/vs-vinhomes-sun-luxury.html</loc>
     <lastmod>2026-03-25</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/vs-vinhomes-sun-luxury.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/vs-vinhomes-sun-luxury.html"/>
@@ -1192,11 +1361,13 @@
     <loc>https://grand-marina-saigon.com/en/news/vs-vinhomes-sun-luxury.html</loc>
     <lastmod>2026-03-25</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/vs-vinhomes-sun-luxury.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/vs-vinhomes-sun-luxury.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/vs-vinhomes-sun-luxury.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/foreigner-buying-procedure.html</loc>
     <lastmod>2026-03-24</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/foreigner-buying-procedure.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/foreigner-buying-procedure.html"/>
@@ -1206,11 +1377,13 @@
     <loc>https://grand-marina-saigon.com/en/news/foreigner-buying-procedure.html</loc>
     <lastmod>2026-03-24</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/foreigner-buying-procedure.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/foreigner-buying-procedure.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/foreigner-buying-procedure.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/buying-process-step-by-step.html</loc>
     <lastmod>2026-03-23</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/buying-process-step-by-step.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/buying-process-step-by-step.html"/>
@@ -1220,11 +1393,13 @@
     <loc>https://grand-marina-saigon.com/en/news/buying-process-step-by-step.html</loc>
     <lastmod>2026-03-23</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/buying-process-step-by-step.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/buying-process-step-by-step.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/buying-process-step-by-step.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/bank-loan-application-process.html</loc>
     <lastmod>2026-03-22</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/bank-loan-application-process.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/bank-loan-application-process.html"/>
@@ -1234,11 +1409,13 @@
     <loc>https://grand-marina-saigon.com/en/news/bank-loan-application-process.html</loc>
     <lastmod>2026-03-22</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/bank-loan-application-process.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/bank-loan-application-process.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/bank-loan-application-process.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/buying-remotely-from-abroad.html</loc>
     <lastmod>2026-03-21</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/buying-remotely-from-abroad.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/buying-remotely-from-abroad.html"/>
@@ -1248,11 +1425,13 @@
     <loc>https://grand-marina-saigon.com/en/news/buying-remotely-from-abroad.html</loc>
     <lastmod>2026-03-21</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/buying-remotely-from-abroad.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/buying-remotely-from-abroad.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/buying-remotely-from-abroad.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/hdmb-sale-contract-terms.html</loc>
     <lastmod>2026-03-20</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/hdmb-sale-contract-terms.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/hdmb-sale-contract-terms.html"/>
@@ -1262,11 +1441,13 @@
     <loc>https://grand-marina-saigon.com/en/news/hdmb-sale-contract-terms.html</loc>
     <lastmod>2026-03-20</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/hdmb-sale-contract-terms.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/hdmb-sale-contract-terms.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/hdmb-sale-contract-terms.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/due-diligence-checklist.html</loc>
     <lastmod>2026-03-19</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/due-diligence-checklist.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/due-diligence-checklist.html"/>
@@ -1276,11 +1457,13 @@
     <loc>https://grand-marina-saigon.com/en/news/due-diligence-checklist.html</loc>
     <lastmod>2026-03-19</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/due-diligence-checklist.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/due-diligence-checklist.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/due-diligence-checklist.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/handover-inspection-checklist.html</loc>
     <lastmod>2026-03-18</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/handover-inspection-checklist.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/handover-inspection-checklist.html"/>
@@ -1290,11 +1473,13 @@
     <loc>https://grand-marina-saigon.com/en/news/handover-inspection-checklist.html</loc>
     <lastmod>2026-03-18</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/handover-inspection-checklist.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/handover-inspection-checklist.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/handover-inspection-checklist.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/common-mistakes-buying-luxury.html</loc>
     <lastmod>2026-03-17</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/common-mistakes-buying-luxury.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/common-mistakes-buying-luxury.html"/>
@@ -1304,11 +1489,13 @@
     <loc>https://grand-marina-saigon.com/en/news/common-mistakes-buying-luxury.html</loc>
     <lastmod>2026-03-17</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/common-mistakes-buying-luxury.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/common-mistakes-buying-luxury.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/common-mistakes-buying-luxury.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/usd-vnd-foreign-investor-guide.html</loc>
     <lastmod>2026-03-16</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/usd-vnd-foreign-investor-guide.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/usd-vnd-foreign-investor-guide.html"/>
@@ -1318,11 +1505,13 @@
     <loc>https://grand-marina-saigon.com/en/news/usd-vnd-foreign-investor-guide.html</loc>
     <lastmod>2026-03-16</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/usd-vnd-foreign-investor-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/usd-vnd-foreign-investor-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/usd-vnd-foreign-investor-guide.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/vietnam-luxury-property-foreign-demand.html</loc>
     <lastmod>2026-03-15</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/vietnam-luxury-property-foreign-demand.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/vietnam-luxury-property-foreign-demand.html"/>
@@ -1332,11 +1521,13 @@
     <loc>https://grand-marina-saigon.com/en/news/vietnam-luxury-property-foreign-demand.html</loc>
     <lastmod>2026-03-15</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/vietnam-luxury-property-foreign-demand.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/vietnam-luxury-property-foreign-demand.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/vietnam-luxury-property-foreign-demand.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/branded-residences-resale-rental-data.html</loc>
     <lastmod>2026-03-14</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/branded-residences-resale-rental-data.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/branded-residences-resale-rental-data.html"/>
@@ -1346,11 +1537,13 @@
     <loc>https://grand-marina-saigon.com/en/news/branded-residences-resale-rental-data.html</loc>
     <lastmod>2026-03-14</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/branded-residences-resale-rental-data.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/branded-residences-resale-rental-data.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/branded-residences-resale-rental-data.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/district-1-supply-scarcity.html</loc>
     <lastmod>2026-03-13</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/district-1-supply-scarcity.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/district-1-supply-scarcity.html"/>
@@ -1360,11 +1553,13 @@
     <loc>https://grand-marina-saigon.com/en/news/district-1-supply-scarcity.html</loc>
     <lastmod>2026-03-13</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/district-1-supply-scarcity.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/district-1-supply-scarcity.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/district-1-supply-scarcity.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/branded-residences-growth-vietnam.html</loc>
     <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/branded-residences-growth-vietnam.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/branded-residences-growth-vietnam.html"/>
@@ -1374,11 +1569,13 @@
     <loc>https://grand-marina-saigon.com/en/news/branded-residences-growth-vietnam.html</loc>
     <lastmod>2026-03-12</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/branded-residences-growth-vietnam.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/branded-residences-growth-vietnam.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/branded-residences-growth-vietnam.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/metro-line-1-property-value.html</loc>
     <lastmod>2026-03-11</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/metro-line-1-property-value.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/metro-line-1-property-value.html"/>
@@ -1388,11 +1585,13 @@
     <loc>https://grand-marina-saigon.com/en/news/metro-line-1-property-value.html</loc>
     <lastmod>2026-03-11</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/metro-line-1-property-value.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/metro-line-1-property-value.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/metro-line-1-property-value.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/hcmc-luxury-property-market-2026.html</loc>
     <lastmod>2026-03-10</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/hcmc-luxury-property-market-2026.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/hcmc-luxury-property-market-2026.html"/>
@@ -1402,11 +1601,13 @@
     <loc>https://grand-marina-saigon.com/en/news/hcmc-luxury-property-market-2026.html</loc>
     <lastmod>2026-03-10</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/hcmc-luxury-property-market-2026.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/hcmc-luxury-property-market-2026.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/hcmc-luxury-property-market-2026.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/vietnam-real-estate-2026-outlook.html</loc>
     <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/vietnam-real-estate-2026-outlook.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/vietnam-real-estate-2026-outlook.html"/>
@@ -1416,11 +1617,13 @@
     <loc>https://grand-marina-saigon.com/en/news/vietnam-real-estate-2026-outlook.html</loc>
     <lastmod>2026-03-09</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/vietnam-real-estate-2026-outlook.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/vietnam-real-estate-2026-outlook.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/vietnam-real-estate-2026-outlook.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/foreigner-ownership-50-year.html</loc>
     <lastmod>2026-03-08</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/foreigner-ownership-50-year.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/foreigner-ownership-50-year.html"/>
@@ -1430,11 +1633,13 @@
     <loc>https://grand-marina-saigon.com/en/news/foreigner-ownership-50-year.html</loc>
     <lastmod>2026-03-08</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/foreigner-ownership-50-year.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/foreigner-ownership-50-year.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/foreigner-ownership-50-year.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/30-percent-foreign-cap.html</loc>
     <lastmod>2026-03-07</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/30-percent-foreign-cap.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/30-percent-foreign-cap.html"/>
@@ -1444,11 +1649,13 @@
     <loc>https://grand-marina-saigon.com/en/news/30-percent-foreign-cap.html</loc>
     <lastmod>2026-03-07</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/30-percent-foreign-cap.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/30-percent-foreign-cap.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/30-percent-foreign-cap.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/foreigner-payment-remittance.html</loc>
     <lastmod>2026-03-06</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/foreigner-payment-remittance.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/foreigner-payment-remittance.html"/>
@@ -1458,11 +1665,13 @@
     <loc>https://grand-marina-saigon.com/en/news/foreigner-payment-remittance.html</loc>
     <lastmod>2026-03-06</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/foreigner-payment-remittance.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/foreigner-payment-remittance.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/foreigner-payment-remittance.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/pink-book-explained.html</loc>
     <lastmod>2026-03-05</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/pink-book-explained.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/pink-book-explained.html"/>
@@ -1472,11 +1681,13 @@
     <loc>https://grand-marina-saigon.com/en/news/pink-book-explained.html</loc>
     <lastmod>2026-03-05</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/pink-book-explained.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/pink-book-explained.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/pink-book-explained.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/rental-income-tax.html</loc>
     <lastmod>2026-03-04</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/rental-income-tax.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/rental-income-tax.html"/>
@@ -1486,11 +1697,13 @@
     <loc>https://grand-marina-saigon.com/en/news/rental-income-tax.html</loc>
     <lastmod>2026-03-04</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/rental-income-tax.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/rental-income-tax.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/rental-income-tax.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/resale-transfer-tax.html</loc>
     <lastmod>2026-03-03</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/resale-transfer-tax.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/resale-transfer-tax.html"/>
@@ -1500,11 +1713,13 @@
     <loc>https://grand-marina-saigon.com/en/news/resale-transfer-tax.html</loc>
     <lastmod>2026-03-03</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/resale-transfer-tax.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/resale-transfer-tax.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/resale-transfer-tax.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/notarization-sale-contract.html</loc>
     <lastmod>2026-03-02</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/notarization-sale-contract.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/notarization-sale-contract.html"/>
@@ -1514,11 +1729,13 @@
     <loc>https://grand-marina-saigon.com/en/news/notarization-sale-contract.html</loc>
     <lastmod>2026-03-02</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/notarization-sale-contract.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/notarization-sale-contract.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/notarization-sale-contract.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/should-i-hire-lawyer.html</loc>
     <lastmod>2026-03-01</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/should-i-hire-lawyer.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/should-i-hire-lawyer.html"/>
@@ -1528,11 +1745,13 @@
     <loc>https://grand-marina-saigon.com/en/news/should-i-hire-lawyer.html</loc>
     <lastmod>2026-03-01</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/should-i-hire-lawyer.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/should-i-hire-lawyer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/should-i-hire-lawyer.html"/>
   </url>
   <url>
     <loc>https://grand-marina-saigon.com/news/branded-residences.html</loc>
     <lastmod>2026-05-20</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/branded-residences.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/branded-residences.html"/>
@@ -1542,5 +1761,9 @@
     <loc>https://grand-marina-saigon.com/en/news/branded-residences.html</loc>
     <lastmod>2026-05-20</lastmod>
     <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/news/branded-residences.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/news/branded-residences.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/branded-residences.html"/>
   </url>
+
 </urlset>

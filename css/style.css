@@ -173,7 +173,7 @@ a {
   background-image: url('../images/hero.webp');
   background-size: cover;
   background-position: center;
-  opacity: 0;
+  opacity: 0.45;
   transition: opacity 0.5s;
   z-index: 0;
 }
@@ -1151,4 +1151,46 @@ a {
   .media-grid {
     grid-template-columns: repeat(4, 1fr);
   }
+}
+
+/* =========================================
+   モバイル追従CTAバー / Zaloフォールバック / コア記事リンク
+   ========================================= */
+.mobile-cta-bar {
+  position: fixed;
+  bottom: 0; left: 0; right: 0;
+  display: flex;
+  z-index: 60;
+  box-shadow: 0 -2px 12px rgba(0,0,0,0.15);
+}
+.mcta {
+  flex: 1;
+  display: flex; align-items: center; justify-content: center;
+  min-height: 54px;
+  padding: 12px 8px;
+  font-weight: 700; font-size: 15px; color: #fff;
+}
+.mcta-zalo { background: var(--color-zalo); }
+.mcta-call { background: var(--color-accent); color: var(--color-primary); }
+
+.zalo-fallback {
+  display: none;
+  margin-top: 20px;
+  padding: 24px;
+  background: var(--color-bg-soft);
+  border: 1px solid var(--color-accent);
+  border-radius: 8px;
+  text-align: center;
+}
+.zalo-fallback .zfb-title { font-weight: 700; color: var(--color-primary); margin-bottom: 14px; }
+.zalo-fallback .btn-zalo { min-width: 240px; }
+.zalo-fallback .zfb-note { font-size: 13px; color: var(--color-text-light); margin-top: 12px; }
+.zalo-fallback .zfb-note a { color: var(--color-accent-dark); font-weight: 600; }
+
+@media (min-width: 768px) {
+  .mobile-cta-bar { display: none; }
+}
+@media (max-width: 767px) {
+  .zalo-float { display: none; }
+  body { padding-bottom: 54px; }
 }

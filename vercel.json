@@ -1,0 +1,19 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": false,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "grand-marina-saigon-tawny.vercel.app" }],
+      "destination": "https://grand-marina-saigon.com/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "www.grand-marina-saigon.com" }],
+      "destination": "https://grand-marina-saigon.com/$1",
+      "permanent": true
+    }
+  ]
+}
