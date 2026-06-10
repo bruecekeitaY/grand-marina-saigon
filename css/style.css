@@ -1194,3 +1194,11 @@ a {
   .zalo-float { display: none; }
   body { padding-bottom: 54px; }
 }
+
+/* 信頼バッジ・Zalo名刺・ヒーロー信頼ライン */
+.trust-badges { list-style: none; margin: 22px auto 0; padding: 0; display: inline-block; text-align: left; }
+.trust-badges li { padding: 5px 0; font-size: 14px; }
+.zalo-namecard { margin: 26px auto 0; max-width: 230px; }
+.zalo-namecard img { width: 100%; height: auto; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.3); }
+.zalo-namecard figcaption { font-size: 13px; margin-top: 10px; opacity: 0.9; line-height: 1.5; }
+.hero-trust { margin-top: 18px; font-size: 13px; opacity: 0.92; }
