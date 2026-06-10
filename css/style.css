@@ -796,12 +796,16 @@ a {
   font-family: var(--font-serif);
   font-size: 24px;
   margin-bottom: 12px;
+  color: #fff;
 }
 
 .cta-banner p {
-  opacity: 0.9;
+  opacity: 0.95;
   margin-bottom: 20px;
+  color: #fff;
 }
+
+.cta-banner strong { color: #fff; }
 
 /* FAQ アコーディオン */
 .faq-list {
