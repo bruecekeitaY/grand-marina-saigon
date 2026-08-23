@@ -2,6 +2,29 @@
 // Grand Marina Saigon - 共通JavaScript
 // =========================================
 
+// =========================================
+// GA4 計測
+// 全333ページがこの main.js を読み込むので、ここ1か所で全ページ計測できる。
+// GA_ID に測定ID（G-XXXXXXXXXX 形式）を入れると計測が始まる。
+// 空文字のままなら gtag.js を読み込まず、リクエストも一切送らない。
+// =========================================
+const GA_ID = '';
+
+if (GA_ID) {
+  const gaScript = document.createElement('script');
+  gaScript.async = true;
+  gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID;
+  document.head.appendChild(gaScript);
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    window.dataLayer.push(arguments);
+  }
+  window.gtag = gtag;
+  gtag('js', new Date());
+  gtag('config', GA_ID);
+}
+
 // モバイルメニューの開閉
 const navToggle = document.querySelector('.nav-toggle');
 const navMenu = document.querySelector('.nav-menu');
