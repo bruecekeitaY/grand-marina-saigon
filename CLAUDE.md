@@ -34,7 +34,14 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - `--font-serif: Playfair Display` / `--font-sans: Inter`。モバイルファースト
 
 ### モバイルナビ / ヒーロー画像（`js/main.js`）
-- `.nav-toggle` → `.nav-menu` の `is-open` トグル。`images/hero.jpg` があれば `.hero` に `has-image` 付与、無ければCSSグラデ
+- `.nav-toggle` → `.nav-menu` の `is-open` トグル。`/images/hero.webp` があれば `.hero` に `has-image` 付与、無ければCSSグラデ
+
+### モーション層（`js/main.js` 冒頭の IIFE + `css/style.css` 末尾の `gm-*`）
+- **HTMLは触らない**。既存クラス（`.section-header` / `.features > *` / `.related-grid > *` / `.article > h2` 等）を手がかりに JS が `gm-reveal` を自動付与 → IntersectionObserver で `gm-in`
+- 内容: ヒーローのケンバーンズ＋文字の順次表示、下層ページの `page-hero` 入場、スクロールリビール（カードは順送り）、ヘッダーの引き締め、記事の読了バー、トップへ戻る、画像ライトボックス、Zaloボタンの脈動
+- JS が動かない環境ではクラスが付かない＝**従来通り全部見える**。`prefers-reduced-motion: reduce` は CSS 末尾で一括OFF
+- `data-count="2026"` を付けた要素は数値カウントアップ（現状の HTML では未使用・任意）
+- 動きを足す/減らすときは **この2ファイルだけ**を編集すること（333ページに一括で効く）
 
 ## ページ構成（2026-07 時点: 完成済み）
 

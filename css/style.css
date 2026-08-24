@@ -1218,3 +1218,322 @@ a {
 .zalo-namecard img { width: 100%; height: auto; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.3); }
 .zalo-namecard figcaption { font-size: 13px; margin-top: 10px; opacity: 0.9; line-height: 1.5; }
 .hero-trust { margin-top: 18px; font-size: 13px; opacity: 0.92; }
+
+/* =========================================
+   モーション層（2026-08 追加）
+   - HTML は一切変更しない。js/main.js が gm-* クラスを自動付与する
+   - JS が動かない環境では「アニメ無しの従来表示」に自動フォールバック
+   - prefers-reduced-motion: reduce を全面尊重（最下部で一括OFF）
+   ========================================= */
+:root {
+  --gm-ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --gm-ease-soft: cubic-bezier(0.33, 1, 0.68, 1);
+}
+
+/* ---------- 1. スクロールリビール（共通） ---------- */
+.gm-reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition:
+    opacity 0.85s var(--gm-ease) var(--gm-d, 0s),
+    transform 0.85s var(--gm-ease) var(--gm-d, 0s);
+}
+.gm-reveal-left  { transform: translateX(-38px); }
+.gm-reveal-right { transform: translateX(38px); }
+.gm-reveal-zoom  { transform: scale(0.94); }
+.gm-reveal.gm-in { opacity: 1; transform: none; }
+
+/* ---------- 2. ヒーロー（トップページ） ---------- */
+.hero::before { will-change: transform; }
+.hero.gm-armed::before { animation: gmKenburns 26s var(--gm-ease-soft) forwards; }
+@keyframes gmKenburns { from { transform: scale(1.12); } to { transform: scale(1); } }
+
+.hero.gm-armed .hero-eyebrow,
+.hero.gm-armed h1,
+.hero.gm-armed .hero-tagline,
+.hero.gm-armed .hero-cta,
+.hero.gm-armed .hero-trust,
+.hero.gm-armed .trust-badges,
+.hero.gm-armed .zalo-namecard { animation: gmRise 1.05s var(--gm-ease) both; }
+.hero.gm-armed .hero-eyebrow  { animation-delay: 0.10s; }
+.hero.gm-armed h1             { animation-delay: 0.24s; }
+.hero.gm-armed .hero-tagline  { animation-delay: 0.40s; }
+.hero.gm-armed .hero-cta      { animation-delay: 0.54s; }
+.hero.gm-armed .hero-trust,
+.hero.gm-armed .trust-badges  { animation-delay: 0.68s; }
+.hero.gm-armed .zalo-namecard { animation-delay: 0.80s; }
+@keyframes gmRise { from { opacity: 0; transform: translateY(26px); } to { opacity: 1; transform: none; } }
+
+.hero h1 { position: relative; }
+.hero.gm-armed h1::after {
+  content: '';
+  position: absolute;
+  left: 50%; bottom: -7px;
+  width: 0; height: 1px;
+  transform: translateX(-50%);
+  background: linear-gradient(90deg, transparent, var(--color-accent), transparent);
+  animation: gmRule 1.4s var(--gm-ease) 0.9s forwards;
+}
+@keyframes gmRule { to { width: 200px; } }
+
+/* スクロール誘導インジケータ（JS が .hero に挿入） */
+.gm-cue {
+  position: absolute;
+  left: 50%; bottom: 26px;
+  transform: translateX(-50%);
+  width: 22px; height: 36px;
+  border: 1px solid rgba(255,255,255,0.55);
+  border-radius: 12px;
+  z-index: 1;
+  opacity: 0;
+  animation: gmFadeIn 0.8s var(--gm-ease) 1.5s forwards;
+}
+.gm-cue::after {
+  content: '';
+  position: absolute;
+  left: 50%; top: 7px;
+  width: 3px; height: 7px;
+  margin-left: -1.5px;
+  border-radius: 2px;
+  background: var(--color-accent);
+  animation: gmCueDrop 1.9s ease-in-out infinite;
+}
+@keyframes gmFadeIn { to { opacity: 1; } }
+@keyframes gmCueDrop {
+  0%   { transform: translateY(0);    opacity: 0; }
+  25%  { opacity: 1; }
+  70%  { transform: translateY(15px); opacity: 0; }
+  100% { transform: translateY(15px); opacity: 0; }
+}
+
+/* ---------- 3. 下層ページのヒーロー ---------- */
+.page-hero { overflow: hidden; }
+.page-hero.gm-armed h1,
+.page-hero.gm-armed p { animation: gmRise 0.95s var(--gm-ease) both; }
+.page-hero.gm-armed h1 { animation-delay: 0.06s; }
+.page-hero.gm-armed p  { animation-delay: 0.20s; }
+
+/* ---------- 4. ヘッダー（スクロールで引き締める） ---------- */
+.site-header {
+  transition: background 0.35s var(--gm-ease-soft), box-shadow 0.35s var(--gm-ease-soft);
+}
+.site-header.gm-scrolled {
+  background: rgba(10, 37, 64, 0.99);
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.22);
+}
+
+/* PC のみ：ナビリンクのゴールド下線 */
+@media (min-width: 768px) {
+  .nav-menu > a { position: relative; }
+  .nav-menu > a::after {
+    content: '';
+    position: absolute;
+    left: 0; bottom: -6px;
+    width: 100%; height: 1px;
+    background: var(--color-accent);
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.35s var(--gm-ease);
+  }
+  .nav-menu > a:hover::after { transform: scaleX(1); transform-origin: left; }
+}
+
+/* モバイルメニューの開閉 */
+.nav-menu.is-open { animation: gmMenuIn 0.28s var(--gm-ease) both; }
+@keyframes gmMenuIn { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: none; } }
+.nav-menu.is-open > a,
+.nav-menu.is-open > .lang-switch { animation: gmRise 0.4s var(--gm-ease) both; }
+.nav-menu.is-open > *:nth-child(1) { animation-delay: 0.03s; }
+.nav-menu.is-open > *:nth-child(2) { animation-delay: 0.06s; }
+.nav-menu.is-open > *:nth-child(3) { animation-delay: 0.09s; }
+.nav-menu.is-open > *:nth-child(4) { animation-delay: 0.12s; }
+.nav-menu.is-open > *:nth-child(5) { animation-delay: 0.15s; }
+.nav-menu.is-open > *:nth-child(6) { animation-delay: 0.18s; }
+.nav-menu.is-open > *:nth-child(7) { animation-delay: 0.21s; }
+.nav-menu.is-open > *:nth-child(8) { animation-delay: 0.24s; }
+.nav-toggle { transition: transform 0.3s var(--gm-ease); }
+.nav-toggle.gm-open { transform: rotate(90deg); }
+
+/* ---------- 5. 記事の読了プログレスバー ---------- */
+.gm-progress {
+  position: fixed;
+  top: 0; left: 0;
+  height: 2px; width: 100%;
+  transform: scaleX(0);
+  transform-origin: left;
+  background: linear-gradient(90deg, var(--color-accent), #e6cf9a);
+  z-index: 200;
+  will-change: transform;
+  pointer-events: none;
+}
+
+/* ---------- 6. トップに戻るボタン（JS が挿入） ---------- */
+.gm-totop {
+  position: fixed;
+  right: 20px; bottom: 88px;
+  width: 44px; height: 44px;
+  padding: 0;
+  border: 1px solid rgba(255,255,255,0.25);
+  border-radius: 50%;
+  background: rgba(10, 37, 64, 0.9);
+  color: var(--color-accent);
+  font-size: 18px; line-height: 1;
+  display: flex; align-items: center; justify-content: center;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(12px);
+  transition: opacity 0.35s var(--gm-ease), transform 0.35s var(--gm-ease), visibility 0.35s, background 0.3s, color 0.3s;
+  z-index: 99;
+}
+.gm-totop.gm-show { opacity: 1; visibility: visible; transform: none; }
+.gm-totop:hover { background: var(--color-accent); color: var(--color-primary); }
+@media (max-width: 767px) {
+  .gm-totop { right: 16px; bottom: 68px; width: 40px; height: 40px; }
+}
+
+/* ---------- 7. Zalo 追従ボタン ---------- */
+.zalo-float { transition: transform 0.3s var(--gm-ease), box-shadow 0.3s var(--gm-ease); }
+.zalo-float:hover { transform: scale(1.08); }
+.zalo-float::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: var(--color-zalo);
+  z-index: -1;
+  animation: gmPulse 2.4s ease-out infinite;
+}
+@keyframes gmPulse {
+  0%   { transform: scale(0.9);  opacity: 0.55; }
+  100% { transform: scale(1.45); opacity: 0; }
+}
+
+/* モバイル追従CTAバーのせり上がり */
+.mobile-cta-bar { animation: gmBarUp 0.5s var(--gm-ease) 0.35s both; }
+@keyframes gmBarUp { from { transform: translateY(100%); } to { transform: none; } }
+
+/* ---------- 8. カード・ボタンの質感 ---------- */
+.feature-card,
+.related-card,
+.price-card,
+.info-box {
+  transition:
+    transform 0.4s var(--gm-ease),
+    box-shadow 0.4s var(--gm-ease),
+    border-color 0.4s var(--gm-ease);
+}
+.feature-card:hover,
+.related-card:hover,
+.price-card:hover { border-color: var(--color-accent); }
+.related-card:hover,
+.price-card:hover { transform: translateY(-4px); box-shadow: 0 14px 28px rgba(10, 37, 64, 0.10); }
+.feature-card .feature-icon { display: inline-block; transition: transform 0.5s var(--gm-ease); }
+.feature-card:hover .feature-icon { transform: translateY(-4px) scale(1.12); }
+
+/* ボタンの光沢スイープ */
+.btn { position: relative; overflow: hidden; }
+.btn::before {
+  content: '';
+  position: absolute;
+  top: 0; left: -120%;
+  width: 60%; height: 100%;
+  background: linear-gradient(100deg, transparent, rgba(255,255,255,0.28), transparent);
+  transform: skewX(-18deg);
+  transition: left 0.6s var(--gm-ease);
+  pointer-events: none;
+}
+.btn:hover::before { left: 130%; }
+.btn:hover { transform: translateY(-2px); }
+
+/* ---------- 9. FAQ アコーディオン ---------- */
+.faq-item summary::after { transition: transform 0.3s var(--gm-ease), color 0.3s; }
+.faq-item[open] summary::after { transform: rotate(180deg); }
+.faq-item[open] .faq-answer { animation: gmAccordion 0.4s var(--gm-ease) both; }
+@keyframes gmAccordion { from { opacity: 0; transform: translateY(-8px); } to { opacity: 1; transform: none; } }
+
+/* ---------- 10. 画像の見せ方 ---------- */
+.article figure,
+.media-figure { overflow: hidden; border-radius: 8px; }
+.article figure img,
+.media-figure img { transition: transform 0.7s var(--gm-ease); }
+.article figure:hover img,
+.media-figure:hover img { transform: scale(1.04); }
+.gm-zoomable { cursor: zoom-in; }
+
+/* 画像ライトボックス（JS が挿入） */
+.gm-lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(6, 20, 36, 0.94);
+  display: flex; align-items: center; justify-content: center;
+  padding: 24px;
+  z-index: 300;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s var(--gm-ease), visibility 0.3s;
+  cursor: zoom-out;
+}
+.gm-lightbox.gm-open { opacity: 1; visibility: visible; }
+.gm-lightbox img {
+  max-width: 100%;
+  max-height: 88vh;
+  width: auto;
+  border-radius: 6px;
+  box-shadow: 0 24px 60px rgba(0,0,0,0.5);
+  transform: scale(0.94);
+  transition: transform 0.35s var(--gm-ease);
+}
+.gm-lightbox.gm-open img { transform: none; }
+.gm-lightbox-close {
+  position: absolute;
+  top: 16px; right: 20px;
+  width: 42px; height: 42px;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.12);
+  color: #fff;
+  font-size: 22px; line-height: 1;
+  cursor: pointer;
+}
+.gm-lightbox-close:hover { background: var(--color-accent); color: var(--color-primary); }
+
+/* ---------- 11. 数値カウントアップ（data-count 属性用・任意） ---------- */
+[data-count] { font-variant-numeric: tabular-nums; }
+
+/* ---------- 12. 「視差効果を減らす」設定の尊重 ---------- */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .gm-reveal,
+  .gm-reveal-left,
+  .gm-reveal-right,
+  .gm-reveal-zoom {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+  .hero.gm-armed::before,
+  .hero.gm-armed .hero-eyebrow,
+  .hero.gm-armed h1,
+  .hero.gm-armed .hero-tagline,
+  .hero.gm-armed .hero-cta,
+  .hero.gm-armed .hero-trust,
+  .hero.gm-armed .trust-badges,
+  .hero.gm-armed .zalo-namecard,
+  .page-hero.gm-armed h1,
+  .page-hero.gm-armed p,
+  .nav-menu.is-open,
+  .nav-menu.is-open > *,
+  .mobile-cta-bar,
+  .zalo-float::after,
+  .faq-item[open] .faq-answer {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+  .hero.gm-armed h1::after { display: none; }
+  .gm-cue { display: none; }
+  .btn::before { display: none; }
+  .article figure:hover img,
+  .media-figure:hover img { transform: none; }
+}
