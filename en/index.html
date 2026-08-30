@@ -53,6 +53,96 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "Organization",
+        "RealEstateAgent"
+      ],
+      "@id": "https://grand-marina-saigon.com/#organization",
+      "name": "Happy Land",
+      "url": "https://grand-marina-saigon.com/",
+      "telephone": "+84903475802",
+      "areaServed": {
+        "@type": "City",
+        "name": "Ho Chi Minh City"
+      },
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://grand-marina-saigon.com/#logo",
+        "url": "https://grand-marina-saigon.com/images/logo.png",
+        "width": 512,
+        "height": 512,
+        "caption": "Happy Land"
+      },
+      "image": {
+        "@id": "https://grand-marina-saigon.com/#logo"
+      },
+      "sameAs": [
+        "https://zalo.me/0903475802",
+        "https://happylandrealty.com"
+      ],
+      "description": "Đại lý phân phối độc lập căn hộ hàng hiệu Grand Marina Saigon. Không phải trang chính thức của Masterise Homes hay Marriott International."
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://grand-marina-saigon.com/#website",
+      "url": "https://grand-marina-saigon.com/",
+      "name": "Grand Marina Saigon — Marriott Branded Residences Vietnam",
+      "inLanguage": "en-US",
+      "publisher": {
+        "@id": "https://grand-marina-saigon.com/#organization"
+      },
+      "about": {
+        "@id": "https://grand-marina-saigon.com/#residence"
+      }
+    },
+    {
+      "@type": [
+        "Residence",
+        "ApartmentComplex"
+      ],
+      "@id": "https://grand-marina-saigon.com/#residence",
+      "name": "Grand Marina Saigon",
+      "url": "https://grand-marina-saigon.com/",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "02 Tôn Đức Thắng, Bến Nghé",
+        "addressLocality": "Quận 1",
+        "addressRegion": "TP. Hồ Chí Minh",
+        "addressCountry": "VN"
+      },
+      "brand": [
+        {
+          "@type": "Brand",
+          "name": "Marriott"
+        },
+        {
+          "@type": "Brand",
+          "name": "JW Marriott"
+        }
+      ],
+      "dateModified": "2026-08-29"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://grand-marina-saigon.com/en/#webpage",
+      "url": "https://grand-marina-saigon.com/en/",
+      "isPartOf": {
+        "@id": "https://grand-marina-saigon.com/#website"
+      },
+      "about": {
+        "@id": "https://grand-marina-saigon.com/#residence"
+      },
+      "inLanguage": "en-US",
+      "dateModified": "2026-08-29"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
   "@type": "Residence",
   "name": "Grand Marina Saigon",
   "description": "The first Marriott & JW Marriott Branded Residences in Vietnam",
@@ -342,6 +432,7 @@
         <a href="news.html">News</a>
         <a href="faq.html">FAQ</a>
         <a href="contact.html">Contact</a>
+        <a href="about-us.html">About Us</a>
       </div>
       <div>
         <h4>Contact</h4>

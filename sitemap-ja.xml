@@ -1003,4 +1003,14 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/news/so-sanh-can-ho-hang-hieu-quan-1.html"/>
   </url>
 
+  <url>
+    <loc>https://grand-marina-saigon.com/ja/about-us.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://grand-marina-saigon.com/about-us.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grand-marina-saigon.com/en/about-us.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://grand-marina-saigon.com/ja/about-us.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://grand-marina-saigon.com/about-us.html"/>
+  </url>
+
 </urlset>
