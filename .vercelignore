@@ -6,4 +6,9 @@ materials/factsheet/
 
 # 画像の原本（配信は webp のみ。リポジトリには残す）
 images/*.jpg
-images/*.png
+
+# eye-view-map.png は webp 化済みで参照ゼロ。原本のみ除外
+images/eye-view-map.png
+
+# ※ images/logo.png は Organization の構造化データで参照するため配信対象。
+#    images/*.png で一括除外しないこと。
