@@ -10,6 +10,6 @@ Sitemap: https://grand-marina-saigon.com/sitemap-vi.xml
 Sitemap: https://grand-marina-saigon.com/sitemap-en.xml
 Sitemap: https://grand-marina-saigon.com/sitemap-ja.xml
 
-# Disallow common non-content paths (none for this site)
-# Disallow: /admin/
-# Disallow: /private/
+# 内部資料・設計ドキュメントはクロール対象外
+Disallow: /docs/
+Disallow: /materials/factsheet/

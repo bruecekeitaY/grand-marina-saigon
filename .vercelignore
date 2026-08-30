@@ -1,0 +1,9 @@
+# SEO設計書・記事テンプレートなど内部資料（デプロイ不要・クロールさせない）
+docs/
+
+# 社内用ファクトシート（27MB・HTMLからリンクしていない）
+materials/factsheet/
+
+# 画像の原本（配信は webp のみ。リポジトリには残す）
+images/*.jpg
+images/*.png
