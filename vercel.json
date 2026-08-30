@@ -16,28 +16,24 @@
   ],
   "headers": [
     {
-      "comment": "画像は内容が変わったらファイル名も変わる運用なので長期キャッシュ。Core Web Vitals(LCP)に効く",
       "source": "/images/(.*)",
       "headers": [
         { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
       ]
     },
     {
-      "comment": "CSS/JSは1ファイル運用で更新頻度があるため、再検証つきの短期キャッシュ",
       "source": "/(css|js)/(.*)",
       "headers": [
         { "key": "Cache-Control", "value": "public, max-age=86400, must-revalidate" }
       ]
     },
     {
-      "comment": "PDF資料は差し替え頻度が低い",
       "source": "/materials/(.*)",
       "headers": [
         { "key": "Cache-Control", "value": "public, max-age=604800" }
       ]
     },
     {
-      "comment": "HTMLは常に最新を出す（価格・在庫が動くため）",
       "source": "/(.*).html",
       "headers": [
         { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
