@@ -68,6 +68,8 @@ This file provides guidance to Codex (Codex.ai/code) when working with code in t
 
 ## SEO 必須事項
 
+- 引渡日・現行在庫は `docs/accuracy-review-2026-09-05.md` に従う。旧記事の「全4棟2023年引渡済み」「現在は転売が大半」を事実として復元しない。開業と各住戸の引渡を区別する。
+
 - 各ページ `<head>` に必須: `<title>`, `<meta name="description">`, `<meta name="keywords">`, Open Graph 一式, Schema.org `Residence` JSON-LD
 - ターゲットキーワード(本文に自然に含めること):
   - VI: "Grand Marina Saigon", "Grand Marina Quận 1", "căn hộ Marriott", "JW Marriott Residences", "Masterise Homes Ba Son"

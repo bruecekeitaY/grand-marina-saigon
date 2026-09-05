@@ -51,6 +51,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## SEO 必須事項
 
+- **引渡日・現行在庫の訂正記録**: `docs/accuracy-review-2026-09-05.md` を先に確認する。旧記事の「全4棟が2023年引渡済み」「現在は転売が大半」は根拠未確認のため再利用しない。開業と各住戸の引渡を区別する。
+
 - 各ページ `<head>`: `<title>` / `<meta description>` / OG一式 / Schema.org `Residence` JSON-LD / hreflang。画像 `alt` 必須
 - ターゲットKW — VI: "Grand Marina Saigon", "Grand Marina Quận 1", "căn hộ Marriott", "JW Marriott Residences", "Masterise Homes Ba Son" / EN: "Grand Marina Saigon", "Marriott Branded Residences Vietnam", "luxury apartment District 1 HCMC"
 
