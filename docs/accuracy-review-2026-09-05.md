@@ -20,6 +20,6 @@ The site's handover guide and news timeline now describe that sourced milestone 
 
 ## Validation
 
-All changed HTML was checked for unchanged canonical URLs, hreflang maps, H1 counts and robots directives. JSON-LD parses successfully; every changed FAQ answer is present in visible content. Newly introduced relative links resolve locally. The previously repeated March/December 2023 handover dates are absent from the changed public HTML.
+All changed HTML was checked for unchanged canonical URLs, hreflang maps, H1 counts and robots directives. JSON-LD parses successfully; every changed FAQ answer is present in visible content. Newly introduced local links and image sources resolve locally. The previously repeated March/December 2023 handover dates are absent from the changed public HTML.
 
-This is a static HTML site with no build step. Local browser rendering was attempted through the available browser tool, which reported no browser available. HTML checks are not a claim that mobile visual review passed.
+This is a static HTML site with no build step. Browser review confirmed the Japanese pricing layout and found a relative hero-image path that failed under the language directories. All three handover guides now use the root image path, verified with HTTP 200. Mobile visual review is not claimed.
