@@ -325,14 +325,18 @@ if (navToggle && navMenu) {
 // モバイル追従CTAバー（全ページに自動挿入）
 (function mobileCtaBar() {
   if (document.querySelector('.mobile-cta-bar')) return;
-  const isEn = (document.documentElement.lang || 'vi').startsWith('en');
+  const lang = (document.documentElement.lang || 'vi').slice(0, 2);
+  // 外国人客はZaloを持っていないため、EN/JAではWhatsAppも並べる
+  const isForeign = lang === 'en' || lang === 'ja';
+  const CALL = { en: 'Call now', ja: '電話する', vi: 'Gọi ngay' }[lang] || 'Gọi ngay';
   const bar = document.createElement('div');
-  bar.className = 'mobile-cta-bar';
+  bar.className = isForeign ? 'mobile-cta-bar mobile-cta-bar--wa' : 'mobile-cta-bar';
   bar.innerHTML =
-    '<a href="https://zalo.me/0903475802" target="_blank" rel="noopener" class="mcta mcta-zalo">💬 ' +
-    (isEn ? 'Chat Zalo' : 'Chat Zalo') + '</a>' +
-    '<a href="tel:0903475802" class="mcta mcta-call">📞 ' +
-    (isEn ? 'Call now' : 'Gọi ngay') + '</a>';
+    (isForeign
+      ? '<a href="https://wa.me/84903475802" target="_blank" rel="noopener" class="mcta mcta-wa">WhatsApp</a>'
+      : '') +
+    '<a href="https://zalo.me/0903475802" target="_blank" rel="noopener" class="mcta mcta-zalo">💬 Zalo</a>' +
+    '<a href="tel:0903475802" class="mcta mcta-call">📞 ' + CALL + '</a>';
   document.body.appendChild(bar);
 })();
 

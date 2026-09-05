@@ -12,7 +12,9 @@
   --color-bg: #ffffff;
   --color-bg-soft: #f7f5f0;
   --color-border: #e5e5e5;
-  --color-zalo: #0068ff;          /* Zaloブランドカラー */
+  --color-zalo: #0068ff;
+  --color-whatsapp: #25d366;
+  --color-whatsapp-dark: #1da851;          /* Zaloブランドカラー */
 
   --font-serif: 'Playfair Display', 'Noto Serif JP', Georgia, serif;
   --font-sans: 'Inter', 'Noto Sans JP', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
@@ -271,6 +273,15 @@ a {
   background: #0052cc;
 }
 
+.btn-wa {
+  background: var(--color-whatsapp);
+  color: #fff;
+}
+
+.btn-wa:hover {
+  background: var(--color-whatsapp-dark);
+}
+
 .btn-outline {
   background: transparent;
   color: #fff;
@@ -446,6 +457,19 @@ a {
   margin: 16px 0;
 }
 
+.contact-wa-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--color-whatsapp);
+  color: #fff;
+  padding: 16px 32px;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 16px 0 0;
+}
+
 .contact-phone {
   font-size: 22px;
   font-weight: 600;
@@ -582,6 +606,28 @@ a {
 .zalo-float:hover {
   transform: scale(1.05);
 }
+
+/* WhatsApp（EN/JAページのみ設置。Zaloボタンの真上に積む） */
+.wa-float {
+  position: fixed;
+  bottom: 86px;
+  right: 20px;
+  background: var(--color-whatsapp);
+  color: #fff;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 10px;
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
+  z-index: 50;
+  transition: transform 0.2s;
+}
+
+.wa-float:hover { transform: scale(1.05); }
 
 /* =========================================
    タブレット以上
@@ -1195,6 +1241,9 @@ a {
 }
 .mcta-zalo { background: var(--color-zalo); }
 .mcta-call { background: var(--color-accent); color: var(--color-primary); }
+.mcta-wa { background: var(--color-whatsapp); }
+/* EN/JAは3分割になるので文字を詰める */
+.mobile-cta-bar--wa .mcta { font-size: 13px; padding: 12px 4px; }
 
 .zalo-fallback {
   display: none;
@@ -1214,7 +1263,7 @@ a {
   .mobile-cta-bar { display: none; }
 }
 @media (max-width: 767px) {
-  .zalo-float { display: none; }
+  .zalo-float, .wa-float { display: none; }
   body { padding-bottom: 54px; }
 }
 
