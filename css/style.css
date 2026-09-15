@@ -23,6 +23,30 @@
   --header-height: 64px;
 }
 
+/* Mobile navigation must stay viewport-bound after the sticky header blurs. */
+@media (max-width: 900px) {
+  .site-header:has(.nav-menu.is-open) {
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+    z-index: 10000;
+  }
+  .nav-menu.is-open {
+    position: fixed !important;
+    inset: 0 !important;
+    width: 100vw;
+    height: 100dvh;
+    min-height: 100dvh;
+    max-height: none !important;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    padding-top: max(88px, calc(env(safe-area-inset-top) + 72px));
+    padding-bottom: max(32px, env(safe-area-inset-bottom));
+    z-index: 9999;
+  }
+  .site-header:has(.nav-menu.is-open) .nav-toggle { position: relative; z-index: 10001; }
+  body:has(.nav-menu.is-open) { overflow: hidden; }
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
