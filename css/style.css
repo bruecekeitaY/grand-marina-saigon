@@ -987,6 +987,61 @@ a {
   font-size: 14px;
 }
 
+/* 同じデベロッパー（Masterise Homes）のほかの物件（トップページ #same-developer）
+   カード全体をクリック可能にしつつ、リンクの文字は物件名だけにする */
+.same-dev-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+}
+
+.same-dev-card h3 {
+  font-family: var(--font-serif);
+  color: var(--color-primary);
+  font-size: 19px;
+  line-height: 1.35;
+  margin-bottom: 4px;
+  overflow-wrap: anywhere;
+}
+
+.same-dev-card h3 a::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 8px;
+}
+
+.same-dev-card h3 a:focus-visible {
+  outline: none;
+}
+
+.same-dev-card h3 a:focus-visible::after {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+.same-dev-card .same-dev-type {
+  color: var(--color-text);
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.same-dev-card .same-dev-loc {
+  color: var(--color-text-light);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.same-dev-more {
+  margin-top: auto;
+  padding-top: 10px;
+  color: var(--color-accent-dark);
+  font-size: 14px;
+  font-weight: 500;
+}
+
 /* 価格カード */
 .price-cards {
   display: grid;
