@@ -179,6 +179,11 @@ a {
 .hero {
   min-height: 100vh;
   position: relative;
+  /* .hero::before（背景画像）は inset:0 のうえ gmKenburns で scale(1.12) まで拡大する。
+     クリップしないと左右へ 6% ずつはみ出し、スマホではその分レイアウトビューポートが
+     広がってページ全体が指で横に動く（実測: 320 で +15px、414 で +20px）。
+     .page-hero には既に overflow:hidden があり、.hero だけ漏れていた。 */
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -532,6 +537,18 @@ a {
   background: #fff;
 }
 
+/* タッチ端末だけ 16px にする。iPhone は入力欄の文字が 16px 未満だと
+   タップした瞬間にページごと自動で拡大し、そのあと画面全体を指で動かせてしまう。
+   （user-scalable=no で塞ぐのは、指で拡大できなくなるので使わない）
+   PC は 15px のまま＝見た目は変わらない。 */
+@media (hover: none) and (pointer: coarse) {
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    font-size: 16px;
+  }
+}
+
 .form-group input:focus,
 .form-group select:focus,
 .form-group textarea:focus {
@@ -846,6 +863,23 @@ a {
 
 .spec-table td:first-child {
   font-weight: 600;
+}
+
+/* 仕様表は列数が多く、狭い画面では最小幅が画面幅を超える（実測: 320px 幅で表が 330px）。
+   そのままだとページ全体が横に広がり、指で画面がずれてしまう。
+   表そのものをスクロール枠にして、はみ出し分は「表の中だけ」で横スクロールさせる。
+   余白も詰めて、ほとんどの表はスクロールせずに収まるようにする。
+   文字サイズは変えない（価格表なので読めることを優先）。PC には影響しない。 */
+@media (max-width: 767px) {
+  .spec-table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .spec-table th,
+  .spec-table td {
+    padding: 10px 8px;
+  }
 }
 
 /* 情報ボックス */
@@ -1373,8 +1407,17 @@ a {
     opacity 0.85s var(--gm-ease) var(--gm-d, 0s),
     transform 0.85s var(--gm-ease) var(--gm-d, 0s);
 }
-.gm-reveal-left  { transform: translateX(-38px); }
-.gm-reveal-right { transform: translateX(38px); }
+/* 左右スライドで待機する演出は、.container の外側に 38px の余白がある大画面だけに限定する。
+   .container は max-width:1200px + padding:0 20px なので、
+   viewport が 1236px 未満だと 38px ずらした分がそのまま画面外へ出る。
+   スマホではこれがレイアウトビューポート自体を広げ、ページ全体が指で横に動く原因になる
+   （実測: 320/375 で +18px、414 で +20px）。
+   1236px に 4px の余裕を足して 1240px をしきい値にした。
+   これ未満では .gm-reveal の既定（縦にずらして出す）だけが効く。 */
+@media (min-width: 1240px) {
+  .gm-reveal-left  { transform: translateX(-38px); }
+  .gm-reveal-right { transform: translateX(38px); }
+}
 .gm-reveal-zoom  { transform: scale(0.94); }
 .gm-reveal.gm-in { opacity: 1; transform: none; }
 
