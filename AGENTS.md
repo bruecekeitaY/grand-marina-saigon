@@ -7,7 +7,7 @@ This file provides guidance to Codex (Codex.ai/code) when working with code in t
 **Grand Marina Saigon**(Masterise Homes × Marriott Branded Residences、ホーチミン1区 Ba Son)を販売する**独立エージェントのSEO重視マルチページサイト**。
 
 - **目的**: "Grand Marina" 関連キーワードで Google 検索流入を獲得 → Zalo(0903475802)で直接やりとりに繋げる
-- **公式サイトではない**: Masterise Homes 公式ではなく独立販売エージェントによる紹介サイトであることをフッター等で明示すること
+- **デベロッパー公式を名乗らない**（オーナー決定・2026-09-22 で表現を変更）: Masterise Homes 公式サイトではないので「公式サイト」「Official website」「Trang chủ chủ đầu tư」等の表記を使わず、Masterise のロゴを発信元として掲げない。**ただしエージェントであることを大々的に明示する必要はない。** フッターの事業者表示（社名・住所・連絡先）で足り、「公式サイトではありません」といった断り書きを目立つ位置に置かない。Happy Land のロゴ・社名ワードマークもヘッダー／フッターに出さない。詳細は `C:/Users/keita/happy-land/CLAUDE.md` の「スポークサイトのブランディング」
 - **言語**: ベトナム語(主、ルート直下)+ 英語(副、`/en/` 配下)
 
 ## ビルド / プレビュー
