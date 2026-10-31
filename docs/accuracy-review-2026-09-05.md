@@ -33,3 +33,18 @@ New evidence allows one channel statement that the 2026-09-05 review could not m
 - **Lagoon and Cove:** no opening announced; the official project site does not present them as residences for sale, and its location map labels a tower on that side "Service Apartment". Their use and schedule are unconfirmed — do not state them.
 
 The rules above still apply: no March/December 2023 handover dates, and no claim that either channel is sold out or dominant.
+
+## Update, 2026-10-31: prices, areas, VAT and payment plans
+
+A hub-wide check (Happy Land, 2026-10-31) found that the pricing table, the "Sky Villa / Duplex ~180–250 m²" and "Penthouse 300 m²+" rows, "10% VAT included in the listed price" and the 25/75 · 30/70 · fast-payment (95–100%, 8–12% discount) plans had been on the site since the first commit (2026-05-15) with no developer document behind them. None of the brochures, floor plans or owner manual in `materials/` contains prices, payment plans or a Sky Villa type, and the Sea penthouse plans top out at 259.09 m² NSA / 278.56 m² GSA.
+
+Changed in VI, EN and JA (pricing, residences, FAQ, contact form option):
+
+- Price table → broker reference prices from the hub's sales ledger (`docs/sales/status.json`, checked 2026-08-24; source masterisehomesbysalereal.vn): 1BR ~18 bn, 2BR ~25–30 bn, 3BR dual-key ~45–59 bn VND, ~353–500 million VND/m². Labelled as broker reference; the developer does not publish a price list. Penthouse price: not published.
+- Areas → net areas (NSA) from the developer floor plans for Lake and Sea, as recorded in the hub's verified `unitTypes` (checked 2021-12-16): 1BR 51.84–61.08, 2BR 69.74–83.97, 3BR/dual-key 107.10–178.66, Sea penthouse (level 45, PH1–PH5) 151.42–259.09 m². The Sky Villa / Duplex row and the unsourced penthouse feature list (plunge pool, private lift, cinema, 270° view) were removed.
+- VAT → "confirm on the quotation or contract whether the price includes VAT".
+- Payment plans and bank-partner terms → removed; buyers are told to request the dated sales-policy document for the exact unit.
+- The developer-website source link for the Sea opening (news timeline and handover guide) was replaced by the VnExpress report (2025-02-26), following the 2026-09-06 owner decision not to link developer sites from sales pages.
+- The project address on the about and location pages now shows the new and former names: Phường Sài Gòn (Phường Bến Nghé, Quận 1 cũ).
+
+Not changed (left for the owner): about 76 news articles still repeat the old price, payment-plan or Sky Villa figures (see the PR for the list), and the "developer funds the management fee for the first 3 years" statement still appears on pricing, FAQ and about pages.
